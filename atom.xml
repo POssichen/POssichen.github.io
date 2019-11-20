@@ -2,13 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2019-11-20T14:37:56.913Z</updated>
+    <updated>2019-11-20T14:42:58.392Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
     <logo>https://POssichen.github.io/images/avatar.png</logo>
     <icon>https://POssichen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 陈冠朋 の Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[毕业设计疑问汇总]]></title>
+        <id>https://POssichen.github.io/post/bi-ye-she-ji-yi-wen-hui-zong</id>
+        <link href="https://POssichen.github.io/post/bi-ye-she-ji-yi-wen-hui-zong">
+        </link>
+        <updated>2019-11-19T12:40:39.000Z</updated>
+        <content type="html"><![CDATA[<h4 id="20191119">2019.11.19</h4>
+<p>Q：为什么 Preprocess.py 处理的数据一定要3列？而且前两列必须为数字？<br>
+A：</p>
+<h4 id="2011120">201.11.20</h4>
+<p>Q：logistic.py 处理数据的速度为什么比 Naivebayes.py 的慢2-3倍<br>
+A：</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[毕业设计操作手册]]></title>
         <id>https://POssichen.github.io/post/bi-ye-she-ji-cao-zuo-shou-ce</id>
