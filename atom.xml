@@ -2,13 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2019-11-13T15:24:36.936Z</updated>
+    <updated>2019-11-20T14:37:56.913Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
     <logo>https://POssichen.github.io/images/avatar.png</logo>
     <icon>https://POssichen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 陈冠朋 の Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[毕业设计操作手册]]></title>
+        <id>https://POssichen.github.io/post/bi-ye-she-ji-cao-zuo-shou-ce</id>
+        <link href="https://POssichen.github.io/post/bi-ye-she-ji-cao-zuo-shou-ce">
+        </link>
+        <updated>2019-11-19T11:41:28.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="运行preprocesspy和statspy">运行Preprocess.py和stats.py</h3>
+<p>由于数据的庞大，选择sys命令行的形式进行运行程序；<br>
+运行方式：</p>
+<ol>
+<li>在终端中 cd 进入到文件所在的文件夹；</li>
+<li>进入虚拟的 python3 环境中，运行的命令行为 <code>source ./env/bin/activate</code>；</li>
+<li>如果新设备还没有创建虚拟环境，可以运行命令行 <code>python3 -m venv env</code> 来创建虚拟环境；</li>
+<li>可以使用 <code>python3 -m pip install XXX</code> 来安装所缺少的工具包；</li>
+<li>遇到下载速度过慢就上网搜索国内的镜像库；</li>
+</ol>
+<h3 id="需要安装的包有以下">需要安装的包有以下：</h3>
+<ol>
+<li><code>python3 -m pip install pip</code></li>
+<li><code>python3 -m pip install utils</code></li>
+<li><code>python3 -m pip install random</code></li>
+<li><code>python3 -m pip install numpy</code></li>
+<li><code>python3 -m pip install pandas</code></li>
+<li><code>python3 -m pip install sklearn</code></li>
+<li><code>python3 -m pip install keras</code></li>
+<li><code>python3 -m pip install tensorflow</code></li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[图表我应该怎么选？]]></title>
         <id>https://POssichen.github.io/post/tu-biao-wo-ying-gai-zen-me-xuan</id>
