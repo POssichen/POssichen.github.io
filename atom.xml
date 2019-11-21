@@ -2,13 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2019-11-20T14:49:45.176Z</updated>
+    <updated>2019-11-21T15:41:03.172Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
     <logo>https://POssichen.github.io/images/avatar.png</logo>
     <icon>https://POssichen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 陈冠朋 の Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[结构图]]></title>
+        <id>https://POssichen.github.io/post/jie-gou-tu-he-liu-cheng-tu</id>
+        <link href="https://POssichen.github.io/post/jie-gou-tu-he-liu-cheng-tu">
+        </link>
+        <updated>2019-11-20T14:29:54.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="序">序</h3>
+<p>2019.11.20；目前手上做的是一个统一认证系统的后台管理项目，标书中对功能的实现比较侧重。于是在画完草稿原型之后对手上的项目进行结构和流程的再一次梳理，不同图的判断准则有很大的不同，认为总结一份说明文档对自己很有帮助。以这次的项目作为例子方便日后查看。</p>
+<h4 id="功能结构图">功能结构图</h4>
+<p>梳理产品功能点，以功能模块进行划分，注意判断页面和流程，以免混入功能结构图之中；</p>
+<h4 id="信息结构图">信息结构图</h4>
+<p>梳理页面信息，包括接触层信息，应用层信息，逻辑层信息，数据层信息，接口层信息；</p>
+<h4 id="产品结构图">产品结构图</h4>
+<p>总结整个产品的信息，功能和基本交互，相当于功能结构图和信息结构图的基础上增加了页面跳转逻辑</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[毕业设计疑问汇总]]></title>
         <id>https://POssichen.github.io/post/bi-ye-she-ji-yi-wen-hui-zong</id>
