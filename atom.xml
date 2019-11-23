@@ -2,13 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2019-11-21T15:42:09.147Z</updated>
+    <updated>2019-11-23T06:56:26.527Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
     <logo>https://POssichen.github.io/images/avatar.png</logo>
     <icon>https://POssichen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 陈冠朋 の Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Mac个人指南]]></title>
+        <id>https://POssichen.github.io/post/mac-ge-ren-zhi-nan</id>
+        <link href="https://POssichen.github.io/post/mac-ge-ren-zhi-nan">
+        </link>
+        <updated>2019-11-23T06:54:19.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="挂载efi">挂载EFI</h3>
+<ol>
+<li>查看EFI所在位置：<code>diskutil list</code></li>
+<li><code>sudo diskutil mount disk_s_</code></li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[结构图]]></title>
         <id>https://POssichen.github.io/post/jie-gou-tu-he-liu-cheng-tu</id>
