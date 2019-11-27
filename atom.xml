@@ -2,13 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2019-11-26T11:31:07.784Z</updated>
+    <updated>2019-11-27T11:11:01.600Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
     <logo>https://POssichen.github.io/images/avatar.png</logo>
     <icon>https://POssichen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 陈冠朋 の Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[分组管理管理逻辑]]></title>
+        <id>https://POssichen.github.io/post/fen-zu-guan-li-guan-li-luo-ji</id>
+        <link href="https://POssichen.github.io/post/fen-zu-guan-li-guan-li-luo-ji">
+        </link>
+        <updated>2019-11-27T10:56:36.000Z</updated>
+        <content type="html"><![CDATA[<p>今天帮同事做了一个小小的功能，是一套小小的分组管理；</p>
+<p>首先一个分组，它需要一个创建分组的入口，而从这个入口创建之后会出现一个容器，承载它和已经创造过的分组，随后可以在这个容器中选择需要更改的分组，对它的参数进行配置，其中我觉得必要的参数有：</p>
+<ol>
+<li>分组唯一标识（编码-ID）</li>
+<li>分组名称（点击可以预览详情，并且可以编辑和删除）</li>
+<li>组内成员（可以在容器中罗列，如果数目较少的话）</li>
+<li>分组状态（可以直接在容器中编辑，新增和编辑页面都不可以对其操作）</li>
+<li>更新时间</li>
+</ol>
+<p>还有一个就是功能的入口有哪些：</p>
+<ol>
+<li>新增入口</li>
+<li>预览入口</li>
+<li>编辑入口（如果改功能使用较少，可以将它隐藏得更深入一点）</li>
+<li>删除入口（如果改功能使用较少，可以将它隐藏得更深入一点）</li>
+</ol>
+<p>下面是用Adobe XD绘制的预览图</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[系统后台短信逻辑]]></title>
         <id>https://POssichen.github.io/post/xi-tong-hou-tai-duan-xin-luo-ji</id>
