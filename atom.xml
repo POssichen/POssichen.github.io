@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2020-01-26T17:37:46.166Z</updated>
+    <updated>2020-01-26T18:03:55.361Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
@@ -120,7 +120,7 @@
         <link href="https://POssichen.github.io/post/ios-human-interface-guidelines">
         </link>
         <updated>2020-01-26T04:27:57.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="font-colorf07c82three-primary-themes-三大设计原则font"><font color="#f07c82">Three Primary Themes  三大设计原则</font></h3>
+        <content type="html"><![CDATA[<h3 id="font-colorf07c82three-primary-themesfont"><font color="#f07c82">Three Primary Themes</font></h3>
 <ol>
 <li>
 <p>Clarity</p>
@@ -139,7 +139,7 @@
 </li>
 </ol>
 <hr>
-<h3 id="font-colorf07c82six-design-principles-六大基本特性font"><font color="#f07c82">Six Design Principles  六大基本特性</font></h3>
+<h3 id="font-colorf07c82six-design-principlesfont"><font color="#f07c82">Six Design Principles</font></h3>
 <ol>
 <li>
 <p>Aesthetic Integrity （审美完整性）</p>
@@ -173,7 +173,7 @@
 </li>
 </ol>
 <hr>
-<h3 id="font-colorf07c82three-interface-essentials-界面要点font"><font color="#f07c82">Three Interface Essentials  界面要点</font></h3>
+<h3 id="font-colorf07c82three-interface-essentialsfont"><font color="#f07c82">Three Interface Essentials</font></h3>
 <ol>
 <li>
 <p><strong>Bar（栏）</strong></p>
@@ -192,7 +192,7 @@
 </li>
 </ol>
 <hr>
-<h4 id="app-architecture-应用架构">App Architecture  应用架构</h4>
+<h3 id="app-architecture-应用架构">App Architecture  应用架构</h3>
 <ol>
 <li>Loding  载入中</li>
 <li>Modality  模态</li>
@@ -201,7 +201,7 @@
 <li>Requesting Permission  申请许可</li>
 <li>Settings  设定值</li>
 </ol>
-<h4 id="user-interaction-用户互动">User Interaction  用户互动</h4>
+<h3 id="user-interaction-用户互动">User Interaction  用户互动</h3>
 <ol>
 <li>3D Touch  3D触控</li>
 <li>Apple Pencil</li>
@@ -217,7 +217,7 @@
 <li>Communication  通讯</li>
 <li>Undo and Redo  撤消和重做</li>
 </ol>
-<h4 id="system-capabilities-系统能力">System Capabilities  系统能力</h4>
+<h3 id="system-capabilities-系统能力">System Capabilities  系统能力</h3>
 <ol>
 <li>Augmented Reality  增强现实</li>
 <li>Mutitasking  多任务</li>
@@ -229,7 +229,7 @@
 <li>Sceenshots  屏幕截图</li>
 <li>TV Providers  电视提供商</li>
 </ol>
-<h4 id="visual-design-视觉设计">Visual Design  视觉设计</h4>
+<h3 id="visual-design-视觉设计">Visual Design  视觉设计</h3>
 <ol>
 <li>Adaptivity and Layout  适应性和布局</li>
 <li>Animation  动画</li>
@@ -241,7 +241,7 @@
 <li>Typography  版式</li>
 <li>Video  视频</li>
 </ol>
-<h4 id="icons-and-images-图标和图像">Icons and Images  图标和图像</h4>
+<h3 id="icons-and-images-图标和图像">Icons and Images  图标和图像</h3>
 <ol>
 <li>Image Size and Resolution  图像尺寸和分辨率</li>
 <li>App Icon  应用程式图示</li>
@@ -249,7 +249,7 @@
 <li>Launch Screen  启动画面</li>
 <li>System Icons  系统图标</li>
 </ol>
-<h4 id="bars-工具栏">Bars  工具栏</h4>
+<h3 id="bars-工具栏">Bars  工具栏</h3>
 <ol>
 <li>Navigation Bars  导航栏</li>
 <li>Search Bars  搜索栏</li>
@@ -257,7 +257,7 @@
 <li>Tab Bars  标签栏</li>
 <li>Toolbars  工具栏</li>
 </ol>
-<h4 id="views-视图">Views  视图</h4>
+<h3 id="views-视图">Views  视图</h3>
 <ol>
 <li>Action Sheets  行动表</li>
 <li>Active Views  活动视图</li>
@@ -272,7 +272,7 @@
 <li>Text Views  文字检视</li>
 <li>Web Views  网页浏览</li>
 </ol>
-<h4 id="controls-控制项">Controls  控制项</h4>
+<h3 id="controls-控制项">Controls  控制项</h3>
 <ol>
 <li>Buttons  按钮</li>
 <li>Context Menus  上下文菜单</li>
@@ -288,7 +288,7 @@
 <li>Switches  开关</li>
 <li>Text Fields  文字栏位</li>
 </ol>
-<h4 id="extensions-扩展名">Extensions  扩展名</h4>
+<h3 id="extensions-扩展名">Extensions  扩展名</h3>
 <ol>
 <li>Custom Keyboards  自定义键盘</li>
 <li>File Providers  文件提供者</li>
