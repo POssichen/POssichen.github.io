@@ -2,13 +2,286 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2020-01-17T06:54:16.085Z</updated>
+    <updated>2020-01-26T12:45:00.884Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
     <logo>https://POssichen.github.io/images/avatar.png</logo>
     <icon>https://POssichen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 陈冠朋 の Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Markdown知识总结]]></title>
+        <id>https://POssichen.github.io/post/markdown-ji-qiao-zong-jie</id>
+        <link href="https://POssichen.github.io/post/markdown-ji-qiao-zong-jie">
+        </link>
+        <updated>2020-01-26T08:27:54.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="表格">表格</h3>
+<pre><code>| 表头 | 表头 |
+| ---- | ---- |
+| 单元格 | 单元格 |
+| 单元格 | 单元格 |
+</code></pre>
+<hr>
+<h3 id="分隔线">分隔线</h3>
+<pre><code>***
+* * *
+*****
+- - -
+----------
+</code></pre>
+<hr>
+<h3 id="删除线">删除线</h3>
+<pre><code>~~要划掉的文字~~
+</code></pre>
+<hr>
+<h3 id="下划线">下划线</h3>
+<pre><code>&lt;u&gt;带下划线文本&lt;/u&gt;
+</code></pre>
+<hr>
+<h3 id="脚注">脚注</h3>
+<pre><code>例子[^1]
+[^1]: www.google.com
+</code></pre>
+<hr>
+<h3 id="代码">代码</h3>
+<pre><code>`代码`
+``` 语言名称
+</code></pre>
+<hr>
+<h3 id="强调">强调</h3>
+<pre><code>**加粗文本**   或   __加粗文本__
+*斜体文本*   或   _斜体文本_
+</code></pre>
+<hr>
+<h3 id="引用">引用</h3>
+<pre><code>&gt; 一级引用
+&gt;&gt; 二级引用
+&gt;&gt;&gt; 三级引用
+</code></pre>
+<hr>
+<h3 id="无序列表">无序列表</h3>
+<pre><code>- xxxxx
+* xxxxx
++ xxxxx
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML知识总结]]></title>
+        <id>https://POssichen.github.io/post/html-zhi-shi-zong-jie</id>
+        <link href="https://POssichen.github.io/post/html-zhi-shi-zong-jie">
+        </link>
+        <updated>2020-01-26T07:41:41.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="1-字体样式及颜色">1. 字体样式及颜色</h3>
+<pre><code>&lt;font face=&quot;微软雅黑&quot; color=&quot;pink&quot; size=&quot;3&quot;&gt;字体及字体颜色和大小&lt;/font&gt;
+&lt;font color=&quot;#0000ff&quot;&gt;字体颜色&lt;/font&gt;
+</code></pre>
+<hr>
+<h3 id="2-文本对齐方式">2. 文本对齐方式</h3>
+<pre><code>&lt;p align=&quot;left&quot;&gt;居左文本&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;居中文本&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;居右文本&lt;/p&gt;
+</code></pre>
+<hr>
+<h3 id="3-换行">3. 换行</h3>
+<pre><code>换行&lt;br/&gt;
+</code></pre>
+<hr>
+<h3 id="4-下划线">4. 下划线</h3>
+<pre><code>&lt;u&gt;下划线文本&lt;/u&gt;
+</code></pre>
+<hr>
+<h3 id="5-小鹅鹅">5. 小鹅鹅</h3>
+<pre><code>&lt;u&gt;下划线文本&lt;/u&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOS 交互基准及目录]]></title>
+        <id>https://POssichen.github.io/post/ios-human-interface-guidelines</id>
+        <link href="https://POssichen.github.io/post/ios-human-interface-guidelines">
+        </link>
+        <updated>2020-01-26T04:27:57.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="font-colorf07c82three-primary-themes-三大设计原则font"><font color="#f07c82">Three Primary Themes  三大设计原则</font></h3>
+<ol>
+<li>
+<p>Clarity</p>
+<pre><code> 页面清晰准确，功能驱动设计的原则；
+</code></pre>
+</li>
+<li>
+<p>Deference</p>
+<pre><code> 干净美观的界面、清晰流畅的动态效果；
+</code></pre>
+</li>
+<li>
+<p>Depth</p>
+<pre><code> 视觉层次感、交互层次感；
+</code></pre>
+</li>
+</ol>
+<hr>
+<h3 id="font-colorf07c82six-design-principles-六大基本特性font"><font color="#f07c82">Six Design Principles  六大基本特性</font></h3>
+<ol>
+<li>
+<p>Aesthetic Integrity （审美完整性）</p>
+<pre><code> 标准化的控件，可预知的交互行为；
+</code></pre>
+</li>
+<li>
+<p>Consistency （一致性）</p>
+<pre><code> 一致的界面元素，图标风格，字符样式等；
+</code></pre>
+</li>
+<li>
+<p><strong>Direct Manipulation （直接操纵）</strong></p>
+<pre><code> 通过旋转屏幕或手势对屏幕上的对象进行交互，提高用户参与度；
+</code></pre>
+</li>
+<li>
+<p><strong>Feedback（反馈）</strong></p>
+<pre><code> 每个交互行为都应该有明确的反馈；
+</code></pre>
+</li>
+<li>
+<p><strong>Metaphors（隐喻）</strong></p>
+<pre><code>通过隐喻用户在现实中的交互方式来使用户更快的学会使用应用；
+</code></pre>
+</li>
+<li>
+<p><strong>User Control（用户控制权）</strong></p>
+<pre><code> 只能通过建议或警告的方式对用户引导，不能剥夺控制权；
+</code></pre>
+</li>
+</ol>
+<hr>
+<h3 id="font-colorf07c82three-interface-essentials-界面要点font"><font color="#f07c82">Three Interface Essentials  界面要点</font></h3>
+<ol>
+<li>
+<p><strong>Bar（栏）</strong></p>
+<pre><code> 告知位置，提供导航，包含用于操作和传达信息的按钮和元素；
+</code></pre>
+</li>
+<li>
+<p><strong>View（视图）</strong></p>
+<pre><code> 包含用户所最关注的内容，如文本、动画，且视图支持滚动、插入、删除、排列等行为方式；
+</code></pre>
+</li>
+<li>
+<p><strong>Controls（控件）</strong></p>
+<pre><code> 控件用于触发功能及传递信息，例如按钮、开关、进度条等控件；
+</code></pre>
+</li>
+</ol>
+<hr>
+<h4 id="app-architecture-应用架构">App Architecture  应用架构</h4>
+<ol>
+<li>Loding  载入中</li>
+<li>Modality  模态</li>
+<li>Navigation  导航</li>
+<li>Onboarding  入职</li>
+<li>Requesting Permission  申请许可</li>
+<li>Settings  设定值</li>
+</ol>
+<h4 id="user-interaction-用户互动">User Interaction  用户互动</h4>
+<ol>
+<li>3D Touch  3D触控</li>
+<li>Apple Pencil</li>
+<li>Audio 音频</li>
+<li>Authentication  认证方式</li>
+<li>Data Entry  数据输入</li>
+<li>Drag and Drop  拖放</li>
+<li>Feedback  反馈</li>
+<li>File Handling  文件处理</li>
+<li>Gestures  手势</li>
+<li>Haptics  触觉</li>
+<li>Near Field  近场</li>
+<li>Communication  通讯</li>
+<li>Undo and Redo  撤消和重做</li>
+</ol>
+<h4 id="system-capabilities-系统能力">System Capabilities  系统能力</h4>
+<ol>
+<li>Augmented Reality  增强现实</li>
+<li>Mutitasking  多任务</li>
+<li>Multiple Windows  多视窗</li>
+<li>Notification  通知</li>
+<li>Printing  列印</li>
+<li>Quick Look  快速浏览</li>
+<li>Ratings and Reviews  评分和评论</li>
+<li>Sceenshots  屏幕截图</li>
+<li>TV Providers  电视提供商</li>
+</ol>
+<h4 id="visual-design-视觉设计">Visual Design  视觉设计</h4>
+<ol>
+<li>Adaptivity and Layout  适应性和布局</li>
+<li>Animation  动画</li>
+<li>Branding  品牌推广</li>
+<li>Color  颜色</li>
+<li>Dark Mode  暗模式</li>
+<li>Materials  用料</li>
+<li>Terminology  术语</li>
+<li>Typography  版式</li>
+<li>Video  视频</li>
+</ol>
+<h4 id="icons-and-images-图标和图像">Icons and Images  图标和图像</h4>
+<ol>
+<li>Image Size and Resolution  图像尺寸和分辨率</li>
+<li>App Icon  应用程式图示</li>
+<li>Custom Icons  自定义图标</li>
+<li>Launch Screen  启动画面</li>
+<li>System Icons  系统图标</li>
+</ol>
+<h4 id="bars-工具栏">Bars  工具栏</h4>
+<ol>
+<li>Navigation Bars  导航栏</li>
+<li>Search Bars  搜索栏</li>
+<li>Status Bars  状态栏</li>
+<li>Tab Bars  标签栏</li>
+<li>Toolbars  工具栏</li>
+</ol>
+<h4 id="views-视图">Views  视图</h4>
+<ol>
+<li>Action Sheets  行动表</li>
+<li>Active Views  活动视图</li>
+<li>Alerts  快讯</li>
+<li>Collections  馆藏</li>
+<li>Image Views  图像浏览</li>
+<li>Pages  页数</li>
+<li>Popovers  弹出窗口</li>
+<li>Scroll Views  滚动视图</li>
+<li>Split Views  分割视图</li>
+<li>Tables  桌子</li>
+<li>Text Views  文字检视</li>
+<li>Web Views  网页浏览</li>
+</ol>
+<h4 id="controls-控制项">Controls  控制项</h4>
+<ol>
+<li>Buttons  按钮</li>
+<li>Context Menus  上下文菜单</li>
+<li>Edit Menus  编辑菜单</li>
+<li>Labels  标签</li>
+<li>Page Controls  页面控件</li>
+<li>Pickers  选择器</li>
+<li>Progress Indicators 进度指标</li>
+<li>Refresh Content Controls  刷新内容控件</li>
+<li>Segmented Controls  分段控件</li>
+<li>Sliders  滑杆</li>
+<li>Steppers  踏步机</li>
+<li>Switches  开关</li>
+<li>Text Fields  文字栏位</li>
+</ol>
+<h4 id="extensions-扩展名">Extensions  扩展名</h4>
+<ol>
+<li>Custom Keyboards  自定义键盘</li>
+<li>File Providers  文件提供者</li>
+<li>Home Screen Actions  主屏幕动作</li>
+<li>Messaging  讯息传递</li>
+<li>Photo Editing  图片修改</li>
+<li>Sharing and Acitons  分享与行动</li>
+<li>Widgets  小部件</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[分组管理管理逻辑]]></title>
         <id>https://POssichen.github.io/post/fen-zu-guan-li-guan-li-luo-ji</id>
