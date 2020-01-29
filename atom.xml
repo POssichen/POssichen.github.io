@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2020-01-26T18:03:55.361Z</updated>
+    <updated>2020-01-29T04:30:23.851Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
@@ -418,9 +418,7 @@ A：</p>
         <link href="https://POssichen.github.io/post/bi-ye-she-ji-cao-zuo-shou-ce">
         </link>
         <updated>2019-11-19T11:41:28.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="运行preprocesspy和statspy">运行Preprocess.py和stats.py</h3>
-<p>由于数据的庞大，选择sys命令行的形式进行运行程序；<br>
-运行方式：</p>
+        <content type="html"><![CDATA[<h3 id="虚拟环境搭建">虚拟环境搭建：</h3>
 <ol>
 <li>在终端中 cd 进入到文件所在的文件夹；</li>
 <li>进入虚拟的 python3 环境中，运行的命令行为<br>
@@ -428,12 +426,13 @@ A：</p>
 <li>如果新设备还没有创建虚拟环境，可以运行命令行 <code>python3 -m venv env</code> 来创建虚拟环境；</li>
 <li>可以使用 <code>python3 -m pip install XXX</code> 来安装所缺少的工具包；</li>
 <li>遇到下载速度过慢就上网搜索国内的镜像库；</li>
+<li>若没有安装/升级pip工具，需要先安装/升级pip工具<br>
+<code>python3 -m pip install pip</code><br>
+<code>python3 -m pip install --upgrade pip</code></li>
 </ol>
-<h3 id="需要安装的包有以下">需要安装的包有以下：</h3>
+<h3 id="资源包安装">资源包安装：</h3>
 <ol>
-<li><code>python3 -m pip install pip</code></li>
 <li><code>python3 -m pip install utils</code></li>
-<li><code>python3 -m pip install random</code></li>
 <li><code>python3 -m pip install numpy</code></li>
 <li><code>python3 -m pip install pandas</code></li>
 <li><code>python3 -m pip install sklearn</code></li>
