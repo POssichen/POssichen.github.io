@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2020-02-09T09:34:01.537Z</updated>
+    <updated>2020-02-09T15:42:01.212Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
@@ -14,7 +14,7 @@
         <id>https://POssichen.github.io/post/mac-os-indicators-zhi-biao</id>
         <link href="https://POssichen.github.io/post/mac-os-indicators-zhi-biao">
         </link>
-        <updated>2020-02-09T09:33:43.000Z</updated>
+        <updated>2020-02-05T09:33:43.000Z</updated>
         <content type="html"><![CDATA[<h3 id="level-indicators-级别指示器">Level Indicators 级别指示器</h3>
 <p>级别指示器以图形的方式表示数值范围内的特定值。</p>
 <ol>
@@ -43,7 +43,7 @@
         <id>https://POssichen.github.io/post/mac-os-selectors-xuan-ze-qi</id>
         <link href="https://POssichen.github.io/post/mac-os-selectors-xuan-ze-qi">
         </link>
-        <updated>2020-02-09T09:18:51.000Z</updated>
+        <updated>2020-02-04T09:18:51.000Z</updated>
         <content type="html"><![CDATA[<h3 id="color-wells-色墙">Color Wells 色墙</h3>
 <ol>
 <li>色块支持拖放和选择。</li>
@@ -92,7 +92,7 @@
         <id>https://POssichen.github.io/post/mac-os-fields-and-labels-zi-duan-he-biao-qian</id>
         <link href="https://POssichen.github.io/post/mac-os-fields-and-labels-zi-duan-he-biao-qian">
         </link>
-        <updated>2020-02-09T08:57:22.000Z</updated>
+        <updated>2020-02-03T08:57:22.000Z</updated>
         <content type="html"><![CDATA[<h3 id="combo-boxes-组合框">Combo Boxes 组合框</h3>
 <p>组合框在单个控件中结合了文本字段和下拉按钮。用户可以在字段中输入自定义值或者从预定义值中进行选择。用户输入自定义值时，不会将其添加到选择列表中。</p>
 <ol>
@@ -141,7 +141,7 @@
         <id>https://POssichen.github.io/post/mac-os-menus-cai-dan</id>
         <link href="https://POssichen.github.io/post/mac-os-menus-cai-dan">
         </link>
-        <updated>2020-02-09T08:31:30.000Z</updated>
+        <updated>2020-02-02T08:31:30.000Z</updated>
         <content type="html"><![CDATA[<h3 id="menu-anatomy-菜单剖析">Menu Anatomy 菜单剖析</h3>
 <p>菜单显示用户可以从中选择的项目列表。菜单中的一项称为菜单项。菜单还可以包含分隔符，菜单项可以包含图标和符号，如复选标记。默认情况下，所有菜单都采用半透明样式。</p>
 <ol>
@@ -186,7 +186,7 @@
         <id>https://POssichen.github.io/post/mac-os-windows-and-views-chuang-kou-he-shi-tu</id>
         <link href="https://POssichen.github.io/post/mac-os-windows-and-views-chuang-kou-he-shi-tu">
         </link>
-        <updated>2020-02-09T06:08:05.000Z</updated>
+        <updated>2020-02-01T06:08:05.000Z</updated>
         <content type="html"><![CDATA[<h3 id="windows-anatomy-窗口解剖">Windows Anatomy 窗口解剖</h3>
 <p>窗口由框架区域和主体区域组成，使用户可以查看应用程序中的内容并与之交互。一个窗口可以和其他窗口并排出现在屏幕上或者填满整个屏幕。</p>
 <ol>
@@ -383,11 +383,31 @@
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[电脑与个人生产力 — 需求剖析]]></title>
+        <id>https://POssichen.github.io/post/dian-nao-yu-ge-ren-sheng-chan-li-xu-qiu-pou-xi</id>
+        <link href="https://POssichen.github.io/post/dian-nao-yu-ge-ren-sheng-chan-li-xu-qiu-pou-xi">
+        </link>
+        <updated>2020-01-31T16:06:34.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="起因">起因</h3>
+<p>​我个人是对屏幕的细腻度有着超高要求的用户，尤其是在经过两个月的 4K 显示器惯坏的情况下，使用起自己手里的这台刷了黑苹果的小米笔记本会有各种说不出的难受，但是这种难受并不是完完全全的生理上的难受，而是经过心理上的放大后的难受，说白了就是心理障碍。由于屏幕是基础的1080P屏幕，在长时间的网页观看时会出现花纹情况，哪怕是在13寸的屏幕上，PPI也不过是165.63，相比起来手机的326、MacBook系列的226，差的不多，但是也有明显的差距，在不开hidpi的情况下完全没法看（这是个人感觉），实际上开了之后还是有很大的改进，勉勉强强可以看，但是心理上非常不舒服，一直催眠自己觉得屏幕还是没法看，觉得需要去换个高PPI的屏幕，外接一个4K屏幕，还有就是重新购入一台Mac，来满足自己眼睛的要求，表面上我的需求是需要一个更高PPI、更高分辨率的屏幕，这样子我才能更好地完成我的毕业论文，写出更好的Blog文章，才能显得更有生产力，显而易见这些都是我在觉得自己屏幕不好的基础上臆想出来的，虽然屏幕真的不太好，但是这并不应该影响能干的事情。而实际上，我是因为长时间的观看白色背景的网页，由于屏幕的白色不够纯和太亮而导致的疲劳，所以我觉得我的实际核心需求是长时间观看网页、文字不疲劳。</p>
+<h3 id="过程">过程</h3>
+<p>​这个想法的过程并不是很快地出现又很快的消失，它整整困扰了我一个星期，我甚至都想到了好几种解决的方案：</p>
+<ol>
+<li>第一种方案是购入一个15.6寸的4K便携显示器，这有着超高的PPI显示效果，同时有着相对便携的属性，令我一度倾心，但是沉下心来思考一番就会发现这个屏幕的便携是一个伪需求，显示器的重量重达1kg，而我的笔记本重量也不过1.25kg，两者相加起来比今年的Macbook Pro 16'' 还要中出个0.25kg，去实体店里体验过16寸笔电的我已经打消了带着这么重的配件通勤，所以就意味着它只会呆在一个位置，移动的频率其实是非常低的（对于我而言，我对比了多个可能会移动的路径），同时它和下面要讲到的大屏显示器在价格上没有任何优势，在显示范围上更是没有优势，唯二的优势是在搬家时更容易移动以及更高的PPI显示。</li>
+<li>第二种方案是购入一个24/27寸的4K显示器，在尺寸和分辨率上有着不错的显示效果，由于使用过2个月的27寸屏幕，给我的感觉就是看不完整个屏幕，同样由于尺寸的提高，PPI只有可怜的163.18，所以就会出现远看看不起，近看看不完的尴尬场面，同时在搬家、迁居的这种搬运场景之下简直是灾难，体验过第一次的我绝对不想体验第二次。并且由于屏幕的过大，在娱乐方面有明显的加持效果，而在工作生产力上（特指目前个人的绘图、写作情况）给我的感觉并没有手里的13寸屏幕来的顺手，就是太大了，并且在隐私上的作用几乎为零，你在干嘛别人一掉头就能发现，对于我这种非常重视隐私的人来说是个大问题。而24寸的屏幕大小并不能说是恰到好处，但是也绝对不是27寸那么尴尬，根据手里的24寸1080P的显示器对比而言，使用起来还是相对舒服的，但是它同样面临着一个携带转移的问题。</li>
+<li>第三种方案是直接购入一个带有Retina屏幕的MacBook产品，这个方案既可以解决黑苹果带来的体验上的不便（蓝牙、网卡、触控板偶尔失灵、多设备联动等问题），也能让我感受到高品质的屏幕效果体验，看起来是非常完美的一个解决方案，但是也有一些并不能让我服服帖帖掏钱的地方，第一个就是售价问题，当然这是我的问题，而不是它的问题，第二个是屏幕设计上，在我看完新的iPad pro之后，看MacBook Air老是会觉得边框有点宽，相比最新的xps系列电脑可以说是被吊到墙上鞭打了，不过辩证而言，我在使用同款的边框大小的小米笔记本时，我的注意力并没有注意到边框的大小，注意力的95%都是集中在屏幕上，就意味着这个因素的影响并不大，只是我的心里对美的要求导致我觉得它不够完美。</li>
+</ol>
+<h3 id="结果">结果</h3>
+<p>​最令我兴奋的事情是我成功地透过了表面的需求找到了核心的需求，我并不是需要更高的PPI显示，而是需要长时间舒适的观看体验，就算是换上了4K显示器，盯着好几个小时的白纸黑字界面肯定也是同样的疲劳，所以我需要的是找到将白色背景换成黑色的方法，调低字体和背景的对比度，这样就能获得相对不错的观看体验。与此同时，因为屏幕观感不好而觉得需要更新设备来完成任务的疑惑也豁然开朗，新设备、新工具只是一个借口，这个借口既是购买新设备的，也是拖延本可以在现有设备上完成任务的，我不会因为购买了一台新的MacBook就会把Blog写的更好，将Apple的人机交互逻辑练习的更好，也不会因为购买了一块新的便携屏幕就能把毕业论文写的更好，把想学习的东西学的更好。唯一能让它们变得更好的方法就是在现在有的设备中马上开始动手，开始练习，不再拖沓和找借口。就像影视飓风的Tim说的“工具它永远是一个工具，关键是你怎么去用它”，同样还有另外一句，“生产力工具本身并不具有生产力，关键是看使用的人是否带有生产力”。现在给我一台全新的顶配Mac pro，在我手里也发挥不出应该有的价值；而在一些人的手里，哪怕是最基础的电脑加剪辑软件，都可以完成出一份优秀的作品。</p>
+<p>​当然，电脑换还是要换的，但是需要做的东西不应该等到换到了电脑再来做，而是应该在完成事情的同时为了更好的使用体验，可以加快效率时再更新设备，不可本末倒置。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Mac os Icons and Images 图标和图像]]></title>
         <id>https://POssichen.github.io/post/mac-os-icons-and-images-tu-biao-he-tu-xiang</id>
         <link href="https://POssichen.github.io/post/mac-os-icons-and-images-tu-biao-he-tu-xiang">
         </link>
-        <updated>2020-02-08T11:01:20.000Z</updated>
+        <updated>2020-01-31T11:01:20.000Z</updated>
         <content type="html"><![CDATA[<h3 id="image-size-and-resolution-图像尺寸和分辨率">Image Size and Resolution 图像尺寸和分辨率</h3>
 <p>标准分辨率的显示器具有1:1像素密度（即@1x），高分辨率显示器为（@2x）</p>
 <ol>
@@ -452,7 +472,7 @@
         <id>https://POssichen.github.io/post/mac-os-visual-design-shi-jue-she-ji</id>
         <link href="https://POssichen.github.io/post/mac-os-visual-design-shi-jue-she-ji">
         </link>
-        <updated>2020-02-08T06:04:51.000Z</updated>
+        <updated>2020-01-30T06:04:51.000Z</updated>
         <content type="html"><![CDATA[<h3 id="animation-动画">Animation 动画</h3>
 <ol>
 <li>追求显示主义。现实的运动可以帮助人们了解事物的运作方式。</li>
@@ -503,7 +523,7 @@
         <id>https://POssichen.github.io/post/mac-os-system-capabilities-xi-tong-neng-li</id>
         <link href="https://POssichen.github.io/post/mac-os-system-capabilities-xi-tong-neng-li">
         </link>
-        <updated>2020-02-08T05:20:04.000Z</updated>
+        <updated>2020-01-29T05:20:04.000Z</updated>
         <content type="html"><![CDATA[<h3 id="auto-save-自动保存">Auto Save 自动保存</h3>
 <p>基于文档的应用程序应该实现自动保存功能，减少编辑时的工作，使用户更加注重于内容的创建。启用“自动保存”后，每小时至少自动保存一次文档版本，并且在每次打开、复制、锁定、重命名、还原和手动保存文档时，都会自动保存该文档的版本，用户可以随时浏览这些保存的版本并恢复。</p>
 <ol>
@@ -578,7 +598,7 @@
         <id>https://POssichen.github.io/post/mac-os-user-interaction-yong-hu-hu-dong</id>
         <link href="https://POssichen.github.io/post/mac-os-user-interaction-yong-hu-hu-dong">
         </link>
-        <updated>2020-02-07T12:38:01.000Z</updated>
+        <updated>2020-01-28T12:38:01.000Z</updated>
         <content type="html"><![CDATA[<h3 id="authentication-认证方式">Authentication 认证方式</h3>
 <ol>
 <li>尽可能延迟登陆。用户在不得不做任何有用的操作前被迫登陆通常会选择放弃应用程序。</li>
@@ -667,74 +687,6 @@
 <li>请求时需说明为何需要这些信息。</li>
 <li>仅在应用运行时才请求权限。</li>
 <li>不要请求不必要的位置信息。</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mac os App Architecture 应用架构]]></title>
-        <id>https://POssichen.github.io/post/mac-os-app-architecture-ying-yong-jia-gou</id>
-        <link href="https://POssichen.github.io/post/mac-os-app-architecture-ying-yong-jia-gou">
-        </link>
-        <updated>2020-02-07T08:14:43.000Z</updated>
-        <content type="html"><![CDATA[<p>Mac os App Architecture 应用架构</p>
-<h3 id="full-screen-mode-全屏模式">Full-Screen Mode 全屏模式</h3>
-<p>全屏模式下的应用程序窗口提供了无干扰的工作环境。工具栏、菜单栏以及其他控件通常是在用户要求时才显示和隐藏，例如移动指针到屏幕顶部，而在配备了touch bar的型号上通常可以通过bar来访问常用的功能，而无需用户移动指针到顶部。</p>
-<ol>
-<li>仅在合理的情况下启用全屏窗口。并非所有应用窗口都需要沉浸展示，有些应用与其他程序一起使用时效果会更好，例如Mac自带的计算器、标签。将iOS应用程序移植到Mac时，请勿假定该程序必须在Mac中支持全屏模式。</li>
-<li>工具栏在需要时可见，但焦点在内容上时需要隐藏。开发者可以设置全屏窗口时始终显示工具栏，也可以设置将指针移动至顶部时才显示，“日历”全屏时始终显示工具栏，“Typora”全屏时隐藏工具栏，以便用户专注于阅读和查看内容。</li>
-<li>保留对基本功能的访问权限。即确保所有必须工具在全屏环境中依然可用，用户应该能够完成任务而不退出全屏模式。</li>
-<li>与外部文件的高效交互。用户在不退出全屏模式的情况也可以打开外部文件、导入外部图像、保存文件......</li>
-<li>充分利用屏幕空间，同时确保界面平滑过度。全屏显示时，窗口的宽度和长度都会适当增加，应该巧妙的调整页面的比例，使窗口更好地适合空间。</li>
-<li>遵守进入任务控制的手势。触控板的手势应该始终有效，用户依然可以在应用全屏的时候进行切换其他桌面及程序......</li>
-<li>用户离开应用程序时，要做出适当的响应。用户离开后返回您的应用程序后，应该能够从上次中断的地方继续。如影片的自动暂停......</li>
-<li>让用户选择何时退出全屏模式。用户切换到另一个应用程序完成活动时，应该避免自动退出全屏模式。</li>
-<li>保留Dock的访问权限。即用户在应用的全屏模式下应该保留下方Dock的访问权限，以便用户可以快速打开应用程序和其他Dock项目。</li>
-</ol>
-<h3 id="loading">Loading</h3>
-<p>用户在使用应用执行命令时如果应用显示空白或者静态内容，但是并没有出现反馈，用户会认为该应用以及失去响应</p>
-<ol>
-<li>提供用户交互的既时确认。通常用户希望每次与您的应用互动时都可以收到反馈，例如点击按钮时获得的视觉反馈，指针在移动时的动画变化。应用为用户的交互提供的反馈速度也快那么用户就认为这个应用越快越流畅。</li>
-<li>帮助人们确定这个过程需要花费多长时间。用户可能并不是需要确切地知道任务将花费多长时间，但是对完成时间的估算很重要。至少要显示一个活动微调器，表示正在发生某种事情，有时也可以进度指示器的基础上加入文本的描述。例如Finder的复制粘贴时会显示进度条以及剩下的时间</li>
-<li>尽快显示内容。应该在尚无内容的地方显示一些占位文本，图形或者动画，并在内容加载时替换这些元素</li>
-</ol>
-<h3 id="onboarding">Onboarding</h3>
-<p>启动页面是与新加入用户或者回访者建立联系的第一个机会。</p>
-<ol>
-<li>避免事先询问设置信息。人们首先期望应用程序可以正常运行，用户可以自行通过首选项调整来满足他们的需求。如果必须询问设置信息，那么请到实际使用情况时再进一次提示。</li>
-<li>建立适用于大多数人的默认配置。尽可能使用户不需要调整默认设置。</li>
-<li>避免教程和说明。不要使用户觉得应用使用起来很困难，应该让用户直接进入使用，如果应用程序需要教程那么就需要提供跳过的方法，并且不会向老用户显示。</li>
-<li>预期帮助。主动寻找用户可能需要帮助的场景，并且在适当的时候显示提示，如果用户错过一次某些内容，确保用户可以重复访问教程。</li>
-<li>使学习变得有趣且容易发现。边做边学会比阅读一系列的说明会更加有趣和有效，使用动画和互动性逐步进行教学，同时避免屏幕截图式教学。</li>
-<li>提供综合帮助。将帮助标签添加到特定的控件之中。</li>
-<li>自动保存用户的工作。用户希望自己的工作能不断保存，且无需干预，如果应用程序基于文档，那么自动保存非常有必要</li>
-<li>始终准备停止并重新启动。大多数用户并不会区分关闭应用程序的主窗口和退出应用程序，如果该应用程序只有一个窗口，则在用户关闭窗口时自动退出。</li>
-</ol>
-<h3 id="preferences-首选项">Preferences 首选项</h3>
-<p>首选项是用户定义的设置，用户调整首选项以自定义应用程序的外观和行为。例如Finder可以自定义桌面和侧边栏的外观、文件扩展名的显示......</p>
-<ol>
-<li>提供一组有用的首选项。避免包括用于配置应用程序各个方面的首选项。相反，应该专注于人们实际想要修改的功能和外观属性。</li>
-<li>提供特定于应用程序的首选项。用户希望全局管理某些设置，如侧边栏的图标大小、自动保存。这些设置已经可以在系统偏好设置，为确保一致性和避免混淆，首选项不应该包含会导致其行为与系统中其他所有应用程序不同的首选项。</li>
-<li>减少常用设置，如果用户经常性要使用的配置，请在浮动浮动面板中公开这些设置，以便用户可以打开并保持在屏幕上以快速访问。</li>
-</ol>
-<h3 id="preferences-window-首选项窗口">Preferences Window 首选项窗口</h3>
-<p>首选项窗口是一个无模式对话框，用于调整应用程序的首选项。通常首选项窗口包含一个工具栏，该工具栏包含用于在设置组间切换的按钮。</p>
-<ol>
-<li>即时应用首选项的更改。用户期望首选项在更改后立刻生效。</li>
-<li>禁用最小化和缩放按钮。“偏好设置”窗口用于偶尔调整应用程序行为，因此无需调整窗口的大小和长时间保持打开状态。</li>
-<li>确保工具栏始终可见且不可自定义。</li>
-<li>恢复上次查看的首选项窗格。如果用户切换首选项窗格，则应用应记住此更改并在用户下次打开首选项窗口是立即显示相同的窗格。</li>
-</ol>
-<h3 id="restoring-state-恢复状态">Restoring State 恢复状态</h3>
-<p>重新启动应用程序时，人们无需追溯步骤即可恢复之前的任务。</p>
-<ol>
-<li>保留并恢复应用状态。在重新启动时打开所有文档和窗口的大学和位置</li>
-<li>按预期配置重新打开窗口。应恢复侧栏的可见性和拆分视图的大小。</li>
-</ol>
-<h3 id="security">Security</h3>
-<ol>
-<li>避免仅依靠密码进行身份验证。应该充分利用Touch ID等技术。</li>
-<li>将敏感信息存于钥匙串中。</li>
-<li>切勿将密码或其他内容存于纯文本文件中。</li>
 </ol>
 ]]></content>
     </entry>
