@@ -2,13 +2,185 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2020-02-09T06:57:03.417Z</updated>
+    <updated>2020-02-09T09:34:01.537Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
     <logo>https://POssichen.github.io/images/avatar.png</logo>
     <icon>https://POssichen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 陈冠朋 の Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Mac os Indicators 指标]]></title>
+        <id>https://POssichen.github.io/post/mac-os-indicators-zhi-biao</id>
+        <link href="https://POssichen.github.io/post/mac-os-indicators-zhi-biao">
+        </link>
+        <updated>2020-02-09T09:33:43.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="level-indicators-级别指示器">Level Indicators 级别指示器</h3>
+<p>级别指示器以图形的方式表示数值范围内的特定值。</p>
+<ol>
+<li>在视图中而不是窗口中使用级别指示器。</li>
+<li>容量指示器有连续和离散两种表现形式。</li>
+<li>可以通过更改填充颜色来提醒用户注意有效值。</li>
+<li>连续形式时才使用刻度线，离散时不使用刻度线。</li>
+<li>如果使用刻度线需要至少标注第一个刻度和最后一个刻度。</li>
+<li>评级指示器可以促进有效排名。</li>
+<li>如果使用自定义符号替换评级星号，那要确保目的明确。</li>
+<li>相关性指示器使用一系列竖线传达相关性。</li>
+</ol>
+<h3 id="progress-indicators-进度指示器">Progress Indicators 进度指示器</h3>
+<p>进度指示器让用户知道应用尚未停止，并让用户们知道将等待多长时间。进度指示器有两种不同的样式：条形指示器和旋转指示器。</p>
+<ol>
+<li>存在取消按钮让用户自行停止处理。</li>
+<li>始终准确报告进度。</li>
+<li>将进度指示器的外观与应用进行匹配。</li>
+<li>任务完成后自动隐藏进度指示器。</li>
+<li>保持不确定的进度指示器移动，以便用户了解正在发生的事情。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac os Selectors 选择器]]></title>
+        <id>https://POssichen.github.io/post/mac-os-selectors-xuan-ze-qi</id>
+        <link href="https://POssichen.github.io/post/mac-os-selectors-xuan-ze-qi">
+        </link>
+        <updated>2020-02-09T09:18:51.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="color-wells-色墙">Color Wells 色墙</h3>
+<ol>
+<li>色块支持拖放和选择。</li>
+<li>支持用户调整文本、形状、参考线和其他元素的颜色。</li>
+</ol>
+<h3 id="date-pickers-日期选择器">Date Pickers 日期选择器</h3>
+<p>日期选择器有两种样式：文本和图形。用户可以通过日期选择器来选择日期、时间或者二者的范围，同时支持公历和非公历。</p>
+<h3 id="image-wells-图墙">Image Wells 图墙</h3>
+<ol>
+<li>必要时还原为默认图像。</li>
+<li>必须选择一个图像视图对象才能执行删除、复制和粘贴功能。</li>
+</ol>
+<h3 id="path-conterols-路径控制">Path Conterols 路径控制</h3>
+<p>路径控件显示所选文件或文件夹的文件系统路径。</p>
+<ol>
+<li>路径控件有两种样式：线性列表和弹出样式。</li>
+<li>在窗口主题而不是窗口框架中使用路径控件。</li>
+<li>只有在可以为用户提供价值的时候才使用路径控件。</li>
+</ol>
+<h3 id="segmented-controls-分段控件">Segmented Controls 分段控件</h3>
+<ol>
+<li>分段控件可以启用一个或多个选择。</li>
+<li>一般情况下需要保持宽度相等。</li>
+<li>考虑使用标签来增加清晰度。</li>
+<li>当分段控件出现在工具栏中的时候需要使用适当的样式</li>
+<li>需要视图切换时需要使用选项卡视图而不是分段控件。</li>
+<li>分段控件不可用于添加和删除操作。</li>
+<li>使用名词或名词短语作为句段文本。</li>
+<li>避免在分段控件中混合文本和图标。</li>
+<li>最好在分段控件中使用系统提供的图标。</li>
+</ol>
+<h3 id="sliders-滑杆">Sliders 滑杆</h3>
+<p>滑块为水平、垂直和圆形轨道，使用户在值的最大最小范围内进行选择。</p>
+<ol>
+<li>滑块的值变化的同时提供实时的反馈。</li>
+<li>可以使用相应的文本字段和步进器来补充滑块。</li>
+<li>使用刻度线可以提高清晰度和准确性。</li>
+<li>可以使用图标来说明最大值和最小值的含义。</li>
+</ol>
+<h3 id="steppers-步进器">Steppers 步进器</h3>
+<p>步进器使用户可以递增地增加或减少数字，如日期、时间值....步进器位于显示其当前值的字段旁边，因为步进器本身不显示值。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac os Fields and Labels 字段和标签]]></title>
+        <id>https://POssichen.github.io/post/mac-os-fields-and-labels-zi-duan-he-biao-qian</id>
+        <link href="https://POssichen.github.io/post/mac-os-fields-and-labels-zi-duan-he-biao-qian">
+        </link>
+        <updated>2020-02-09T08:57:22.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="combo-boxes-组合框">Combo Boxes 组合框</h3>
+<p>组合框在单个控件中结合了文本字段和下拉按钮。用户可以在字段中输入自定义值或者从预定义值中进行选择。用户输入自定义值时，不会将其添加到选择列表中。</p>
+<ol>
+<li>使用列表中有意义的默认值填充该字段。</li>
+<li>使用介绍性标签可以使用户知道预期的值。</li>
+<li>根据用户的输入提供相关的选择。</li>
+<li>限制用户只允许选择一个值，不允许多选。</li>
+<li>确保文本字段不超出框位。</li>
+</ol>
+<h3 id="labels-标签">Labels 标签</h3>
+<p>标签时描述屏幕上的界面元素或提供简短信息的静态文本字段。</p>
+<ol>
+<li>使标签简短易读。</li>
+<li>引入控件时使用冒号。</li>
+<li>使用系统提供的标签颜色来传达重要性。</li>
+<li>使用户协议选择标签进行复制。</li>
+</ol>
+<h3 id="search-fields-搜索字段">Search Fields 搜索字段</h3>
+<p>搜索框一般位于工具栏的最右方。</p>
+<ol>
+<li>显示取消搜索按钮。</li>
+<li>必要的时候显示搜索字段相关的提示。</li>
+<li>在适当的时间去搜索，可以在输入内容后进行搜索也可以在用户点击Enter后进行搜索。</li>
+<li>考虑隐私性。可能用户不希望看到所有搜索历史。</li>
+<li>允许用户自行选择过滤的属性和规则。</li>
+<li>搜索的属性中选择适当的按钮外观。</li>
+</ol>
+<h3 id="text-fields-文字字段">Text Fields 文字字段</h3>
+<p>文字栏时一个圆角矩形区域，用户可以在其中输入或编辑一行或者多行文本。</p>
+<ol>
+<li>使用介绍性标签或占位符文本来帮助用户理解输入内容。</li>
+<li>在用户输入的时候就开始验证准确性。</li>
+<li>使用数字格式来辅助数字数据的输入。</li>
+<li>相应地调整换行符。</li>
+<li>敏感的文本使用安全的文本字段。</li>
+<li>考虑使用拓展工具来显示不可见的文本完整信息。</li>
+<li>尽可能使文本字段的大小与预期文本的数量匹配。</li>
+<li>预留合适的文字间隔。</li>
+</ol>
+<h3 id="token-fields-令牌字段">Token Fields 令牌字段</h3>
+<p>令牌字段是在文字栏中存在的多项选择器。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac os Menus 菜单]]></title>
+        <id>https://POssichen.github.io/post/mac-os-menus-cai-dan</id>
+        <link href="https://POssichen.github.io/post/mac-os-menus-cai-dan">
+        </link>
+        <updated>2020-02-09T08:31:30.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="menu-anatomy-菜单剖析">Menu Anatomy 菜单剖析</h3>
+<p>菜单显示用户可以从中选择的项目列表。菜单中的一项称为菜单项。菜单还可以包含分隔符，菜单项可以包含图标和符号，如复选标记。默认情况下，所有菜单都采用半透明样式。</p>
+<ol>
+<li>菜单类型有3种：Contextual Menus、Dock Menus、Menu Bar Menus。</li>
+<li>即使菜单项不可用时也要保持菜单的可见性。</li>
+<li>菜单标题尽可能短且清晰。</li>
+<li>菜单标题使用文本而不是图标。</li>
+<li>避免在菜单项标题中使用文章。</li>
+<li>禁用不可用菜单。使用灰色。</li>
+<li>考虑将键盘快捷键分配给菜单栏中的常用菜单项。</li>
+<li>限制子菜单的深度和长度。一般不超过5层。</li>
+<li>使用子菜单而不是缩进菜单项。</li>
+<li>使用分割线创建视觉上不用的相关菜单项组。</li>
+<li>将最常用的项目放在菜单顶部。</li>
+<li>对相互依赖的菜单项进行分组。</li>
+<li>将相似的动作组合在一起，使人们可以轻松找到菜单项。</li>
+<li>合并相关菜单项。</li>
+<li>注意菜单的长度。</li>
+<li>尽量减少滚动菜单。</li>
+<li>使用熟悉的图标。避免在菜单中使用自定义符号。</li>
+<li>使用复选标记指示当前处于活动状态。</li>
+<li>使用破折号表示属性仅适用于部分选择。</li>
+</ol>
+<h3 id="contextual-menus-上下文菜单">Contextual Menus 上下文菜单</h3>
+<p>上下文菜单或快捷菜单使用户可以访问与当前上下文相关的常用命令。</p>
+<ol>
+<li>将菜单层次限制为1个或者2个级别。</li>
+<li>不在菜单中设置默认项。</li>
+</ol>
+<h3 id="dock-menus-底栏菜单">Dock Menus 底栏菜单</h3>
+<ol>
+<li>提供特定于应用程序的菜单项。</li>
+<li>确保Dock菜单项在应用程序的其他位置也可用。</li>
+<li>将特定于应用程序的菜单项放在系统提供的菜单项上方。</li>
+</ol>
+<h3 id="menu-bar-menus-菜单栏菜单">Menu Bar Menus 菜单栏菜单</h3>
+<p>菜单栏菜单通常包括以下菜单：苹果菜单、应用菜单、文件菜单、编辑菜单、格式菜单、查看菜单、特定于应用程序菜单、窗口菜单、帮助菜单。例如“Typora”的特定应用程序菜单是主题菜单。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mac os Windows and Views 窗口和视图]]></title>
         <id>https://POssichen.github.io/post/mac-os-windows-and-views-chuang-kou-he-shi-tu</id>
@@ -564,205 +736,6 @@
 <li>将敏感信息存于钥匙串中。</li>
 <li>切勿将密码或其他内容存于纯文本文件中。</li>
 </ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mac os Visual Index 视觉指数]]></title>
-        <id>https://POssichen.github.io/post/mac-os-visual-index</id>
-        <link href="https://POssichen.github.io/post/mac-os-visual-index">
-        </link>
-        <updated>2020-02-07T03:55:33.000Z</updated>
-        <content type="html"><![CDATA[<p>大多数Mac os都是使用了AppKit组建构建的，AppKit是一种定义通用接口元素的编程框架，所以Mac os中得以实现一致的程序外观，不过Apple官方也提供了高级别的自定义功能。</p>
-<h3 id="窗口和视图">窗口和视图</h3>
-<p>窗口包含一个或者多个视图，其中包含人们看到的文本内容、图形、动画以及交互；</p>
-<ol>
-<li>Alert——显示消息的通知，错误或者警告</li>
-<li>Box——为控件、文本框和其他元素的逻辑分组</li>
-<li>Column view——垂直列显示文件数据层次的导航窗口</li>
-<li>Outline view——在滚动列表中以层次结构显示行数据</li>
-<li>Image view——在透明或者不透明的背景上显示单个图像或动画序列</li>
-<li>Panel（HUD-style）——在高度视觉或沉浸式应用程序中显示与活动文档有关的信息</li>
-<li>Panel（standard）——显示与活动文档有关的信息、选项或控件</li>
-<li>Popover——单击控件或视图时，在屏幕上方显示控件、选项或信息</li>
-<li>Scroll view——通过水平和垂直滚动，可以浏览大于可见区域的内容</li>
-<li>Sheet——附加到窗口的模式对话框中显示控件，选项或信息</li>
-<li>Sidebar——侧边栏出现在窗口的一侧，可以选择需要操作的项目</li>
-<li>Split view——拆分视图用于管理两个或者多个内容窗格的呈现</li>
-<li>Tabview——标签视图在同一区域内显示多个内容窗格</li>
-<li>Table view——在单元格的滚动列表显示数据</li>
-<li>Toolbar——工具栏提供对应用程序窗口中常用命令和功能的快速访问</li>
-<li>Web view——加载并显示丰富的Web内容</li>
-<li>Window——由框架区域和主体区域组成，可用于查看应用程序的内容并与之交互</li>
-</ol>
-<h3 id="菜单">菜单</h3>
-<ol>
-<li>Contextual menu——上下文菜单通过Control键单击某个项目显示，提供常用命令访问</li>
-<li>Dock menu——停靠菜单通过右键点击Dock图标显示，提供系统对应的命令访问</li>
-<li>Menu bar menu——菜单栏菜单用于访问特定应用程序的命令，位于左上角</li>
-</ol>
-<h3 id="按钮">按钮</h3>
-<ol>
-<li>Action button——动作按钮通常在工具栏或者表格下找到，提供常用命令访问</li>
-<li>Checkbox——多选框</li>
-<li>Disclosure button——显示和隐藏与特定控件相关的功能，例如“保存”中的“另存为”</li>
-<li>Disclosure triangle——显示和隐藏相关的信息或功能</li>
-<li>Gradient button——一般用于删除或添加表行</li>
-<li>Help button——帮助按钮</li>
-<li>Image button——图像按钮一般包含图标或图像</li>
-<li>Pop-up button——弹出按钮显示包含互斥选项列表的菜单</li>
-<li>Pull-down button——下拉按钮显示命令列表或启用一个或多个状态的选择</li>
-<li>Push button——点击按钮</li>
-<li>Radio button——单选按钮</li>
-<li>Scope button——范围按钮限制视图中内容的范围，例如搜索结果</li>
-</ol>
-<h3 id="字段和标签">字段和标签</h3>
-<ol>
-<li>Combo box——组合框在单个控件中将文本字段与下拉按钮结合到一起</li>
-<li>Label——标签描述屏幕上的元素或提供短信息</li>
-<li>Search field——搜索框用于文本搜索</li>
-<li>Text field——文本域允许用户输入和编辑一行或多行文本</li>
-<li>Token field——令牌字段允许用户输入和编辑令牌，属于可操作类文本块</li>
-</ol>
-<h3 id="选择器">选择器</h3>
-<ol>
-<li>Color well——颜色面板用于颜色选择</li>
-<li>Date pocker——日期选择器用于时间或日期的文本或图形选择</li>
-<li>Image well——图像面板用于编辑图像，支持拖放、删除、复制和粘贴</li>
-<li>Path control——路径控制，显示所选文件或文件夹的文件系统路径</li>
-<li>Segmented control——分段控制是两个或多个段的水平集合，用于影响对象的状态视图</li>
-<li>Slider——滑块有水平、垂直和圆盘样式，在值的范围内进行选择</li>
-<li>Stepper——步进器用于数字、日期或时间值的递增和递减</li>
-</ol>
-<h3 id="指标">指标</h3>
-<ol>
-<li>Capacity indicator（continiuous）连续容量显示器，以填充轨迹说明容量</li>
-<li>Capacity indicator（discrete）离散容量指示器，以矩形块说明容量</li>
-<li>Progress bar——进度条</li>
-<li>Progress circle——进度圈</li>
-<li>Progress spinner——进度微调器用于显示无法量化的任务执行进度动画</li>
-<li>Rating indicator——使用一系列水平排列的图形符号来表达等级</li>
-<li>Relevance indicator——用一系列竖线传达相关性</li>
-</ol>
-<h3 id="触控板控制和视图">触控板控制和视图</h3>
-<ol>
-<li>Button——按钮</li>
-<li>Candidate list——候选列表，在文本输入过程中的自动提示</li>
-<li>Character picker——表情选择器</li>
-<li>Color picker——颜色选择器</li>
-<li>Popover——弹窗，以按钮样式呈现，点击后显示包含的控件按钮</li>
-<li>Scrubber（fixed）——滑动浏览固定的内容</li>
-<li>Scrubber（free）——滑动浏览会变化的内容</li>
-<li>Segmented control——分段控制是两个或多个段的水平集合，用于影响对象的状态视图</li>
-<li>Sharing service picker——共享服务选择器，用于分享信息</li>
-<li>Slider——滑块有水平、垂直和圆盘样式，在值的范围内进行选择</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[电脑与个人生产力 — 需求剖析]]></title>
-        <id>https://POssichen.github.io/post/dian-nao-yu-ge-ren-sheng-chan-li-xu-qiu-pou-xi</id>
-        <link href="https://POssichen.github.io/post/dian-nao-yu-ge-ren-sheng-chan-li-xu-qiu-pou-xi">
-        </link>
-        <updated>2020-01-31T16:06:34.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="起因">起因</h3>
-<p>​我个人是对屏幕的细腻度有着超高要求的用户，尤其是在经过两个月的 4K 显示器惯坏的情况下，使用起自己手里的这台刷了黑苹果的小米笔记本会有各种说不出的难受，但是这种难受并不是完完全全的生理上的难受，而是经过心理上的放大后的难受，说白了就是心理障碍。由于屏幕是基础的1080P屏幕，在长时间的网页观看时会出现花纹情况，哪怕是在13寸的屏幕上，PPI也不过是165.63，相比起来手机的326、MacBook系列的226，差的不多，但是也有明显的差距，在不开hidpi的情况下完全没法看（这是个人感觉），实际上开了之后还是有很大的改进，勉勉强强可以看，但是心理上非常不舒服，一直催眠自己觉得屏幕还是没法看，觉得需要去换个高PPI的屏幕，外接一个4K屏幕，还有就是重新购入一台Mac，来满足自己眼睛的要求，表面上我的需求是需要一个更高PPI、更高分辨率的屏幕，这样子我才能更好地完成我的毕业论文，写出更好的Blog文章，才能显得更有生产力，显而易见这些都是我在觉得自己屏幕不好的基础上臆想出来的，虽然屏幕真的不太好，但是这并不应该影响能干的事情。而实际上，我是因为长时间的观看白色背景的网页，由于屏幕的白色不够纯和太亮而导致的疲劳，所以我觉得我的实际核心需求是长时间观看网页、文字不疲劳。</p>
-<h3 id="过程">过程</h3>
-<p>​这个想法的过程并不是很快地出现又很快的消失，它整整困扰了我一个星期，我甚至都想到了好几种解决的方案：</p>
-<ol>
-<li>第一种方案是购入一个15.6寸的4K便携显示器，这有着超高的PPI显示效果，同时有着相对便携的属性，令我一度倾心，但是沉下心来思考一番就会发现这个屏幕的便携是一个伪需求，显示器的重量重达1kg，而我的笔记本重量也不过1.25kg，两者相加起来比今年的Macbook Pro 16'' 还要中出个0.25kg，去实体店里体验过16寸笔电的我已经打消了带着这么重的配件通勤，所以就意味着它只会呆在一个位置，移动的频率其实是非常低的（对于我而言，我对比了多个可能会移动的路径），同时它和下面要讲到的大屏显示器在价格上没有任何优势，在显示范围上更是没有优势，唯二的优势是在搬家时更容易移动以及更高的PPI显示。</li>
-<li>第二种方案是购入一个24/27寸的4K显示器，在尺寸和分辨率上有着不错的显示效果，由于使用过2个月的27寸屏幕，给我的感觉就是看不完整个屏幕，同样由于尺寸的提高，PPI只有可怜的163.18，所以就会出现远看看不起，近看看不完的尴尬场面，同时在搬家、迁居的这种搬运场景之下简直是灾难，体验过第一次的我绝对不想体验第二次。并且由于屏幕的过大，在娱乐方面有明显的加持效果，而在工作生产力上（特指目前个人的绘图、写作情况）给我的感觉并没有手里的13寸屏幕来的顺手，就是太大了，并且在隐私上的作用几乎为零，你在干嘛别人一掉头就能发现，对于我这种非常重视隐私的人来说是个大问题。而24寸的屏幕大小并不能说是恰到好处，但是也绝对不是27寸那么尴尬，根据手里的24寸1080P的显示器对比而言，使用起来还是相对舒服的，但是它同样面临着一个携带转移的问题。</li>
-<li>第三种方案是直接购入一个带有Retina屏幕的MacBook产品，这个方案既可以解决黑苹果带来的体验上的不便（蓝牙、网卡、触控板偶尔失灵、多设备联动等问题），也能让我感受到高品质的屏幕效果体验，看起来是非常完美的一个解决方案，但是也有一些并不能让我服服帖帖掏钱的地方，第一个就是售价问题，当然这是我的问题，而不是它的问题，第二个是屏幕设计上，在我看完新的iPad pro之后，看MacBook Air老是会觉得边框有点宽，相比最新的xps系列电脑可以说是被吊到墙上鞭打了，不过辩证而言，我在使用同款的边框大小的小米笔记本时，我的注意力并没有注意到边框的大小，注意力的95%都是集中在屏幕上，就意味着这个因素的影响并不大，只是我的心里对美的要求导致我觉得它不够完美。</li>
-</ol>
-<h3 id="结果">结果</h3>
-<p>​最令我兴奋的事情是我成功地透过了表面的需求找到了核心的需求，我并不是需要更高的PPI显示，而是需要长时间舒适的观看体验，就算是换上了4K显示器，盯着好几个小时的白纸黑字界面肯定也是同样的疲劳，所以我需要的是找到将白色背景换成黑色的方法，调低字体和背景的对比度，这样就能获得相对不错的观看体验。与此同时，因为屏幕观感不好而觉得需要更新设备来完成任务的疑惑也豁然开朗，新设备、新工具只是一个借口，这个借口既是购买新设备的，也是拖延本可以在现有设备上完成任务的，我不会因为购买了一台新的MacBook就会把Blog写的更好，将Apple的人机交互逻辑练习的更好，也不会因为购买了一块新的便携屏幕就能把毕业论文写的更好，把想学习的东西学的更好。唯一能让它们变得更好的方法就是在现在有的设备中马上开始动手，开始练习，不再拖沓和找借口。就像影视飓风的Tim说的“工具它永远是一个工具，关键是你怎么去用它”，同样还有另外一句，“生产力工具本身并不具有生产力，关键是看使用的人是否带有生产力”。现在给我一台全新的顶配Mac pro，在我手里也发挥不出应该有的价值；而在一些人的手里，哪怕是最基础的电脑加剪辑软件，都可以完成出一份优秀的作品。</p>
-<p>​当然，电脑换还是要换的，但是需要做的东西不应该等到换到了电脑再来做，而是应该在完成事情的同时为了更好的使用体验，可以加快效率时再更新设备，不可本末倒置。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Markdown知识总结]]></title>
-        <id>https://POssichen.github.io/post/markdown-ji-qiao-zong-jie</id>
-        <link href="https://POssichen.github.io/post/markdown-ji-qiao-zong-jie">
-        </link>
-        <updated>2020-01-26T08:27:54.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="表格">表格</h3>
-<pre><code>| 表头 | 表头 |
-| ---- | ---- |
-| 单元格 | 单元格 |
-| 单元格 | 单元格 |
-</code></pre>
-<hr>
-<h3 id="分隔线">分隔线</h3>
-<pre><code>***
-* * *
-*****
-- - -
-----------
-</code></pre>
-<hr>
-<h3 id="删除线">删除线</h3>
-<pre><code>~~要划掉的文字~~
-</code></pre>
-<hr>
-<h3 id="下划线">下划线</h3>
-<pre><code>&lt;u&gt;带下划线文本&lt;/u&gt;
-</code></pre>
-<hr>
-<h3 id="脚注">脚注</h3>
-<pre><code>例子[^1]
-[^1]: www.google.com
-</code></pre>
-<hr>
-<h3 id="代码">代码</h3>
-<pre><code>`代码`
-``` 语言名称
-</code></pre>
-<hr>
-<h3 id="强调">强调</h3>
-<pre><code>**加粗文本**   或   __加粗文本__
-*斜体文本*   或   _斜体文本_
-</code></pre>
-<hr>
-<h3 id="引用">引用</h3>
-<pre><code>&gt; 一级引用
-&gt;&gt; 二级引用
-&gt;&gt;&gt; 三级引用
-</code></pre>
-<hr>
-<h3 id="无序列表">无序列表</h3>
-<pre><code>- xxxxx
-* xxxxx
-+ xxxxx
-</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTML知识总结]]></title>
-        <id>https://POssichen.github.io/post/html-zhi-shi-zong-jie</id>
-        <link href="https://POssichen.github.io/post/html-zhi-shi-zong-jie">
-        </link>
-        <updated>2020-01-26T07:41:41.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="1-字体样式及颜色">1. 字体样式及颜色</h3>
-<pre><code>&lt;font face=&quot;微软雅黑&quot; color=&quot;pink&quot; size=&quot;3&quot;&gt;字体及字体颜色和大小&lt;/font&gt;
-&lt;font color=&quot;#0000ff&quot;&gt;字体颜色&lt;/font&gt;
-</code></pre>
-<hr>
-<h3 id="2-文本对齐方式">2. 文本对齐方式</h3>
-<pre><code>&lt;p align=&quot;left&quot;&gt;居左文本&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;居中文本&lt;/p&gt;
-&lt;p align=&quot;right&quot;&gt;居右文本&lt;/p&gt;
-</code></pre>
-<hr>
-<h3 id="3-换行">3. 换行</h3>
-<pre><code>换行&lt;br/&gt;
-</code></pre>
-<hr>
-<h3 id="4-下划线">4. 下划线</h3>
-<pre><code>&lt;u&gt;下划线文本&lt;/u&gt;
-</code></pre>
-<hr>
-<h3 id="5-小鹅鹅">5. 小鹅鹅</h3>
-<pre><code>&lt;u&gt;下划线文本&lt;/u&gt;
-</code></pre>
 ]]></content>
     </entry>
 </feed>
