@@ -2,13 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2020-02-09T15:42:01.212Z</updated>
+    <updated>2020-02-16T07:37:55.248Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
     <logo>https://POssichen.github.io/images/avatar.png</logo>
     <icon>https://POssichen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 陈冠朋 の Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[疫情期间校园网课思考]]></title>
+        <id>https://POssichen.github.io/post/yi-qing-qi-jian-xiao-yuan-wang-ke-si-kao</id>
+        <link href="https://POssichen.github.io/post/yi-qing-qi-jian-xiao-yuan-wang-ke-si-kao">
+        </link>
+        <updated>2020-02-16T07:17:52.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>    疫情肆虐了2个月有余，很直接影响了返工和返校人群，这两个群体都是聚集性较强，容易引发大规模传染。所以工作人群率先采用了远程办公的方式，而学生群体均接到了网络授课的通知，并且网络授课的时间跨越也很长，从3月份到5月份，无论是小学还是大学，都得这样妥协。
+    这次的大规模远程办公和网课必然会刺激相关的行业发展，网课采用的都是现有的直播平台进行授课，这是很多家庭没有体会过的，往常上课都是面对面在学校里面，就算是出去外面补课也是有一半是面对面授课，并且价格还比较高。当然，也有一部分补习班是采用了网络直播或者录播这样的形式进行授课，我妹妹的学而思教育机构就是采用这种方式。我觉得这是一个非常好的推广远程教育、补习的机会。目前K12领域传统教育补习领域的玩家有腾讯的企鹅辅导、新东方、好未来、猿辅导......而新时代的编程教育的代表有编程猫、、、......目前来看编程K12还不是刚需，复购的几率不高，但是从国际环境来看，各个国家都将编程教育加入了基础教育之中，中国加入是迟早的事情，并且我觉得很有概率是必考科目，那么现阶段对这个领域进行铺路就显得很有远见。相比与传统的K12教育，我觉得编程K12更要抓住机会在这个全民网课的时候推广自己，占领要地。</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mac os Indicators 指标]]></title>
         <id>https://POssichen.github.io/post/mac-os-indicators-zhi-biao</id>
@@ -590,103 +600,6 @@
 <li>考虑在后台使用Spotlight。</li>
 <li>参照Search Kit的API来完成搜索功能。</li>
 <li>使用搜索字段和范围栏可以在视图中启用内容过滤。</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mac os User Interaction 用户互动]]></title>
-        <id>https://POssichen.github.io/post/mac-os-user-interaction-yong-hu-hu-dong</id>
-        <link href="https://POssichen.github.io/post/mac-os-user-interaction-yong-hu-hu-dong">
-        </link>
-        <updated>2020-01-28T12:38:01.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="authentication-认证方式">Authentication 认证方式</h3>
-<ol>
-<li>尽可能延迟登陆。用户在不得不做任何有用的操作前被迫登陆通常会选择放弃应用程序。</li>
-<li>说明身份验证的好处以及如何注册服务。</li>
-</ol>
-<h3 id="data-entry-数据输入">Data Entry 数据输入</h3>
-<p>无论是使用键盘、鼠标、触控板还是语音，输入信息都可能是一个乏味且容易出错的过程。</p>
-<ol>
-<li>让人们尽可能地做出选择。考虑使用表格、弹出按钮或者单选按钮组替代文本字段。使数据输入的更快更高效。</li>
-<li>简化列表导航。</li>
-<li>使用介绍性标签或文本来达到帮助目的。</li>
-<li>适当调整文本字段换行符。</li>
-<li>考虑使用拓展工具提示来显示已剪切或截断的文本。</li>
-<li>适当使用安全的文本字段。如输入密码时。</li>
-</ol>
-<h3 id="prepopulating-data-预填充数据">Prepopulating Data 预填充数据</h3>
-<ol>
-<li>尽可能从系统获取信息。尽量不要强迫人们提供可以自动收集或在用户许可下收集。</li>
-<li>提供合理的默认值。</li>
-<li>不要预先填充密码字段</li>
-<li>确保应用填充数据的准确性</li>
-</ol>
-<h3 id="validating-data-验证数据">Validating Data 验证数据</h3>
-<ol>
-<li>仅在必要时才需要字段值。</li>
-<li>推迟显示必填指示符。</li>
-<li>动态验证字段值。尽可能在输入后立即检查字段值，以便用户立即进行改正</li>
-</ol>
-<h3 id="drag-and-drop-拖放">Drag and Drop 拖放</h3>
-<ol>
-<li>尽可能使拖放操作可逆。</li>
-<li>确定拖放的结果是移动还是复制。</li>
-<li>尽可能让人们一步选择并拖动内容。</li>
-<li>用户可以在非活动窗口拖动选定内容。</li>
-<li>拖动图像时在指针下方显示拖动图像。</li>
-<li>在多项目拖动过程中显示项目数量。</li>
-<li>明确指出何时无法删除。</li>
-<li>将内容拖到新目标上方时，突出显示该目标。</li>
-<li>插入拖放时显示拖放内容出现的位置。</li>
-<li>如果拖放失败，则使用预期的动画。</li>
-<li>完成无法撤销拖放操作前请确认。</li>
-</ol>
-<h3 id="file-handling-文件处理">File Handling 文件处理</h3>
-<p>用于用户与文件系统进行交互以打开和保存文件</p>
-<ol>
-<li>确定打开的是工作表还是独立窗口。</li>
-<li>默认保存为合理位置。如果启用了iCloud同步，那iCloud文件夹通常为最佳默认位置。</li>
-<li>考虑添加描述性标题或消息。</li>
-<li>让人们以预期的方式打开文档。</li>
-<li>尽可能允许选择多个文件。</li>
-<li>尽量包含合理的过滤器，以便用户选择所需要的文件。</li>
-</ol>
-<h3 id="help-帮助">Help 帮助</h3>
-<p>用户有时需要帮助来学习高级和辅助功能，可以通过帮助标签和Apple帮助的形式提供帮助。</p>
-<ol>
-<li>避免限制用户操作。</li>
-<li>尽描述指针正下方的控件。</li>
-<li>将帮助标签添加到特定于应用程序的控件中</li>
-<li>尽可能少的单词来描述控件。</li>
-<li>考虑提供上下文相关的帮助标签。</li>
-<li>提供基于任务的描述。</li>
-</ol>
-<h3 id="keyboard-键盘">Keyboard 键盘</h3>
-<ol>
-<li>遵守标准的键盘快捷键。</li>
-<li>为标准菜单项启用预期的键盘快捷键。</li>
-<li>请勿覆盖标准键盘快捷键。</li>
-<li>保留预期的键盘快捷键。</li>
-</ol>
-<h3 id="mouse-and-trackpad-鼠标和触控板">Mouse and Trackpad 鼠标和触控板</h3>
-<ol>
-<li>使用标准控件和视图。</li>
-<li>根据上下文和含义对点击和手势做出响应。</li>
-<li>避免重新定义系统范围内的应用间手势。</li>
-<li>避免重新定义反馈的类型。</li>
-</ol>
-<h3 id="providing-user-feedback-提供用户反馈">Providing User Feedback 提供用户反馈</h3>
-<ol>
-<li>将状态和其他类型的反馈集成到界面中。</li>
-<li>可能导致数据意外丢失时警告他们。</li>
-<li>告诉用户什么时候不能执行命令。</li>
-</ol>
-<h3 id="requesting-permission-请求权限">Requesting Permission 请求权限</h3>
-<ol>
-<li>仅在应用明确需要时才请求个人数据。</li>
-<li>请求时需说明为何需要这些信息。</li>
-<li>仅在应用运行时才请求权限。</li>
-<li>不要请求不必要的位置信息。</li>
 </ol>
 ]]></content>
     </entry>
