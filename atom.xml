@@ -2,13 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2020-02-19T03:33:38.800Z</updated>
+    <updated>2020-02-20T03:54:35.226Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
     <logo>https://POssichen.github.io/images/avatar.png</logo>
     <icon>https://POssichen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 陈冠朋 の Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[五十音(ya yu yo)]]></title>
+        <id>https://POssichen.github.io/post/wu-shi-yin-ya-yu-yo</id>
+        <link href="https://POssichen.github.io/post/wu-shi-yin-ya-yu-yo">
+        </link>
+        <updated>2020-02-20T03:54:18.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://POssichen.github.io/post-images/1582170870725.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[五十音(ma mi mu me mo)]]></title>
+        <id>https://POssichen.github.io/post/wu-shi-yin-ma-mi-mu-me-mo</id>
+        <link href="https://POssichen.github.io/post/wu-shi-yin-ma-mi-mu-me-mo">
+        </link>
+        <updated>2020-02-20T03:52:58.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://POssichen.github.io/post-images/1582170838859.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[五十音(ha hi fu he ho)]]></title>
         <id>https://POssichen.github.io/post/wu-shi-yin-ha-hi-fu-he-ho</id>
@@ -100,104 +118,6 @@
 <li>任务完成后自动隐藏进度指示器。</li>
 <li>保持不确定的进度指示器移动，以便用户了解正在发生的事情。</li>
 </ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mac os Selectors 选择器]]></title>
-        <id>https://POssichen.github.io/post/mac-os-selectors-xuan-ze-qi</id>
-        <link href="https://POssichen.github.io/post/mac-os-selectors-xuan-ze-qi">
-        </link>
-        <updated>2020-02-04T09:18:51.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="color-wells-色墙">Color Wells 色墙</h3>
-<ol>
-<li>色块支持拖放和选择。</li>
-<li>支持用户调整文本、形状、参考线和其他元素的颜色。</li>
-</ol>
-<h3 id="date-pickers-日期选择器">Date Pickers 日期选择器</h3>
-<p>日期选择器有两种样式：文本和图形。用户可以通过日期选择器来选择日期、时间或者二者的范围，同时支持公历和非公历。</p>
-<h3 id="image-wells-图墙">Image Wells 图墙</h3>
-<ol>
-<li>必要时还原为默认图像。</li>
-<li>必须选择一个图像视图对象才能执行删除、复制和粘贴功能。</li>
-</ol>
-<h3 id="path-conterols-路径控制">Path Conterols 路径控制</h3>
-<p>路径控件显示所选文件或文件夹的文件系统路径。</p>
-<ol>
-<li>路径控件有两种样式：线性列表和弹出样式。</li>
-<li>在窗口主题而不是窗口框架中使用路径控件。</li>
-<li>只有在可以为用户提供价值的时候才使用路径控件。</li>
-</ol>
-<h3 id="segmented-controls-分段控件">Segmented Controls 分段控件</h3>
-<ol>
-<li>分段控件可以启用一个或多个选择。</li>
-<li>一般情况下需要保持宽度相等。</li>
-<li>考虑使用标签来增加清晰度。</li>
-<li>当分段控件出现在工具栏中的时候需要使用适当的样式</li>
-<li>需要视图切换时需要使用选项卡视图而不是分段控件。</li>
-<li>分段控件不可用于添加和删除操作。</li>
-<li>使用名词或名词短语作为句段文本。</li>
-<li>避免在分段控件中混合文本和图标。</li>
-<li>最好在分段控件中使用系统提供的图标。</li>
-</ol>
-<h3 id="sliders-滑杆">Sliders 滑杆</h3>
-<p>滑块为水平、垂直和圆形轨道，使用户在值的最大最小范围内进行选择。</p>
-<ol>
-<li>滑块的值变化的同时提供实时的反馈。</li>
-<li>可以使用相应的文本字段和步进器来补充滑块。</li>
-<li>使用刻度线可以提高清晰度和准确性。</li>
-<li>可以使用图标来说明最大值和最小值的含义。</li>
-</ol>
-<h3 id="steppers-步进器">Steppers 步进器</h3>
-<p>步进器使用户可以递增地增加或减少数字，如日期、时间值....步进器位于显示其当前值的字段旁边，因为步进器本身不显示值。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mac os Fields and Labels 字段和标签]]></title>
-        <id>https://POssichen.github.io/post/mac-os-fields-and-labels-zi-duan-he-biao-qian</id>
-        <link href="https://POssichen.github.io/post/mac-os-fields-and-labels-zi-duan-he-biao-qian">
-        </link>
-        <updated>2020-02-03T08:57:22.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="combo-boxes-组合框">Combo Boxes 组合框</h3>
-<p>组合框在单个控件中结合了文本字段和下拉按钮。用户可以在字段中输入自定义值或者从预定义值中进行选择。用户输入自定义值时，不会将其添加到选择列表中。</p>
-<ol>
-<li>使用列表中有意义的默认值填充该字段。</li>
-<li>使用介绍性标签可以使用户知道预期的值。</li>
-<li>根据用户的输入提供相关的选择。</li>
-<li>限制用户只允许选择一个值，不允许多选。</li>
-<li>确保文本字段不超出框位。</li>
-</ol>
-<h3 id="labels-标签">Labels 标签</h3>
-<p>标签时描述屏幕上的界面元素或提供简短信息的静态文本字段。</p>
-<ol>
-<li>使标签简短易读。</li>
-<li>引入控件时使用冒号。</li>
-<li>使用系统提供的标签颜色来传达重要性。</li>
-<li>使用户协议选择标签进行复制。</li>
-</ol>
-<h3 id="search-fields-搜索字段">Search Fields 搜索字段</h3>
-<p>搜索框一般位于工具栏的最右方。</p>
-<ol>
-<li>显示取消搜索按钮。</li>
-<li>必要的时候显示搜索字段相关的提示。</li>
-<li>在适当的时间去搜索，可以在输入内容后进行搜索也可以在用户点击Enter后进行搜索。</li>
-<li>考虑隐私性。可能用户不希望看到所有搜索历史。</li>
-<li>允许用户自行选择过滤的属性和规则。</li>
-<li>搜索的属性中选择适当的按钮外观。</li>
-</ol>
-<h3 id="text-fields-文字字段">Text Fields 文字字段</h3>
-<p>文字栏时一个圆角矩形区域，用户可以在其中输入或编辑一行或者多行文本。</p>
-<ol>
-<li>使用介绍性标签或占位符文本来帮助用户理解输入内容。</li>
-<li>在用户输入的时候就开始验证准确性。</li>
-<li>使用数字格式来辅助数字数据的输入。</li>
-<li>相应地调整换行符。</li>
-<li>敏感的文本使用安全的文本字段。</li>
-<li>考虑使用拓展工具来显示不可见的文本完整信息。</li>
-<li>尽可能使文本字段的大小与预期文本的数量匹配。</li>
-<li>预留合适的文字间隔。</li>
-</ol>
-<h3 id="token-fields-令牌字段">Token Fields 令牌字段</h3>
-<p>令牌字段是在文字栏中存在的多项选择器。</p>
 ]]></content>
     </entry>
 </feed>
