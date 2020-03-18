@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head lang="zh">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="renderer" content="webkit">
+<meta name="description" content="">
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+
+<title>运营指标详解 | 陈冠朋 の Blog</title>
+<link href="https://POssichen.github.io/styles/main.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css"/>
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/contrib/auto-render.min.js"></script>
+<script type="text/javascript" src="https://POssichen.github.io/media/scripts/jquery.js"></script>
+<script type="text/javascript" src="https://POssichen.github.io/media/scripts/jquery.pjax.min.js"></script>
+<script type="text/javascript" src="https://POssichen.github.io/media/scripts/basic.js"></script>
+<script type="text/javascript" src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script async type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/lightgallery/1.6.12/js/lightgallery.min.js"></script>
+<script src="https://cdn.bootcss.com/tocbot/4.8.1/tocbot.js"></script>
+
+  </head>
+  <body>
+     <div class="header">
+      <div class="logo_title">
+		  
+        <div class="title animated fadeInDown"><img id="img1" alt="logo" style="display:inline-block;" src="https://POssichen.github.io/images/avatar.png"/>
+<script>
+var r = 0;
+    window.onload = function(){
+        var current = 0;
+        document.getElementById('img1').onclick = function(){
+            current = (current+90)%360;
+            this.style.transform = 'rotate('+current+'deg)';
+        }
+    };
+</script>
+
+          <h1 title="陈冠朋 の Blog" class="weaklink"><a  href="/">陈冠朋 の Blog</a>
+
+          </h1>
+	  
+
+          <div class="navbar weaklink">
+            <div class="normal_nav">
+
+<div class="bitcron_nav_container">
+
+
+  <div class="bitcron_nav">
+    <div class="mixed_site_nav_wrap site_nav_wrap">
+		
+      <ul class="mixed_site_nav site_nav sm sm-base">
+	  
+ 
+  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a>
+  </li>
+  
+ 
+  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/archives" class="selected active current nav__item" >归档</a>
+  </li>
+  
+ 
+  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a>
+  </li>
+  
+ 
+  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/post/about" class="selected active current nav__item" >关于</a>
+  </li>
+  
+ 
+ <li>
+
+      </ul>
+	  
+
+      <div class="clear clear_nav_inline_end"></div>
+    </div>
+
+  </div>
+
+
+
+  <div class="clear clear_nav_end"></div>
+
+</div>
+
+            </div>
+			
+			<div class="hamberger"><i class="fa fa-bars"></i>
+<i class="fa fa-times"></i>
+
+			</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="hidden_nav animated fadeInDown">
+
+<div class="bitcron_nav_container">
+
+
+  <div class="bitcron_nav">
+    <div class="mixed_site_nav_wrap site_nav_wrap">
+      <ul class="mixed_site_nav site_nav sm sm-base">
+	
+  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a>
+
+  </li>
+
+
+  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/archives" class="selected active current nav__item" >归档</a>
+
+  </li>
+
+
+  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a>
+
+  </li>
+
+
+  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/post/about" class="selected active current nav__item" >关于</a>
+
+  </li>
+
+
+
+
+      </ul>
+
+      <div class="clear clear_nav_inline_end"></div>
+    </div>
+
+  </div>
+
+
+
+  <div class="clear clear_nav_end"></div>
+
+</div>
+
+      </div>
+
+    </div>
+
+
+
+
+    <div class="main" id="pjax-container">
+      <div class="main-inner">
+<div class="content">
+<div class="post_page" >
+<div class="post">
+  <div class="post_title sm_margin">
+    <h2><a>运营指标详解</a>
+    </h2>
+  </div>
+<script>
+
+
+</script>
+  <div class="post_details">
+    <div class="info"><i class="fa fa-calendar"></i>
+<span class="date_info">2020-03-18</span>
+<i class="fa fa-eye"></i>
+<span class="date_info"><span id="busuanzi_value_page_pv"></span> Views</span>
+<i class="fa fa-bookmark-o"></i>
+<span class="tags_info weaklink">
+	
+</span>
+<i class="fa fa-clock-o"></i>
+<span style="margin-right:15px">
+7 min read
+</span>
+</div>
+  </div>
+
+    <div class="post_content markdown">
+	
+    <div name="show" id="show">
+	<p class="md_block"><span class="md_line md_line_start md_line_end"><h2 id="part1基础指标概念">Part1：基础指标概念</h2>
+<h3 id="sem">SEM：</h3>
+<p>搜索引擎营销：英文Search Engine Marketing ，我们通常简称为SEM</p>
+<p>搜索引擎营销的基本思想是让用户发现信息，并通过（搜索引擎）搜索点击进入网站/网页进一步了解他所需要的信息。在介绍搜索引擎策略时，一般认为，搜索引擎优化设计主要目标有2个层次：被搜索引擎收录、在搜索结果中排名。</p>
+<h3 id="seo">SEO：</h3>
+<p>Search Engine Optimization，汉译为搜索引擎优化</p>
+<p>SEO搜索引擎优化是一种利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的排名的方式。SEO目的理解是：为网站提供生态式的自我营销解决方案，让网站在行业内占据领先地位，从而获得品牌收益。SEO包含站外SEO和站内SEO两方面。</p>
+<h3 id="ctr">CTR：</h3>
+<p>Click-Through-Rate互联网广告常用的术语，指网络广告（图片广告/文字广告/关键词广告/排名广告/视频广告等）的点击到达率，即该广告的点击量（严格的来说，可以是到达目标页面的数量）除以广告的浏览量（PV- Page View）。CTR是衡量互联网广告效果的一项重要指标。</p>
+<h3 id="pv">PV：</h3>
+<p>page view，即页面浏览量，或点击量</p>
+<p>通常是衡量一个网络新闻频道或网站甚至一条网络新闻的主要指标。高手对pv的解释是，一个访问者在24小时(0点到24点)内到底看了你网站几个页面。</p>
+<p>这里需要强调：同一个人浏览你网站同一个页面，不重复计算pv量，点100次也算1次。说白了，pv就是一个访问者打开了你的几个页面。PV之于网站，就像收视率之于电视，从某种程度上已成为投资者衡量商业网站表现的最重要尺度。</p>
+<p>pv的计算：当一个访问者访问的时候，记录他所访问的页面和对应的IP，然后确定这个IP今天访问了这个页面没有。如果你的网站到了23点，单纯IP有60万条的话，每个访问者平均访问了3个页面，那么pv表的记录就要有180万条。</p>
+<h3 id="uv">UV：</h3>
+<p>unique visitor，指访问某个站点或点击某条新闻的不同IP地址的人数。</p>
+<p>在同一天内，uv只记录第一次进入网站的具有独立IP的访问者，在同一天内再次访问该网站则不计数。独立IP访问者提供了一定时间内不同观众数量的统计指标，而没有反应出网站的全面活动。</p>
+<h3 id="销售额">销售额：</h3>
+<p>根据《中华人民共和国增值税暂行条例》第六条的规定，销售额为纳税人销售货物或者应税劳务向购买方收取的全部价款和价外费用，但是不包括收取的销项税额。</p>
+<h3 id="毛利率">毛利率：</h3>
+<p>毛利率（gross profit margin）是毛利与销售收入（或营业收入）的百分比</p>
+<p>其中毛利是收入和与收入相对应的营业成本之间的差额，用公式表示：毛利率=毛利/营业收入×100%=（主营业务收入-主营业务成本）/主营业务收入×100%；从构成上看毛利率是收入与营业成本的差，但实际上这种理解将毛利率的概念本末倒置了。其实，毛利率反映的是一个商品经过生产转换内部系统以后增值的那一部分。也就是说，增值的越多毛利自然就越多。比如产品通过研发的差异性设计，对比竞争对手增加了一些功能，而边际价格的增加又为正值，这时毛利也就增加了。</p>
+<h3 id="净利率">净利率：</h3>
+<p>净利率还可以叫净利润率、销售净利率、销售利润率、经营净利率、主营业务利润率</p>
+<p>其实指的都是一样东西，说明企业收入1块钱能净赚多少钱，看该指标的时候可以和毛利率比较一下，两者越接近说明企业的期间费用越低。</p>
+<h2 id="part2市场投放主要计费方式">Part2：市场投放主要计费方式</h2>
+<h3 id="cpm">CPM：</h3>
+<p>Cost Per Mille，或者Cost Per Thousand;Cost Per Impressions)每千人成本</p>
+<p>网上广告收费最科学的办法是按照有多少人看到你的广告来收费。按访问人次收费已经成为网络广告的惯例。CPM(千人成本)指的是广告投放过程中，听到或者看到某广告的每一人平均分担到多少广告成本。传统媒介多采用这种计价方式。在网上广告，CPM取决于“印象”尺度，通常理解为一个人的眼睛在一段固定的时间内注视一个广告的次数。比如说一个广告 横幅的单价是1元/CPM的话，意味着每一千个人次看到这个Ban-ner的话就收1元，如此类推 ，10，000人次访问的主页就是10元。</p>
+<h3 id="cpa">CPA：</h3>
+<p>Cost Per Action 每效果成本——即按照效果付费</p>
+<p>CPA计价方式是指按广告投放实际效果，即按回应的有效问卷或定单来计费，而不限广告投 放量。CPA的计价方式对于网站而言有一定的风险，但若广告投放成功，其收益也比CPM的计 价方式要大得多。 ?广告主为规避广告费用风险，只有当网络用户点击旗帜广告，链接广告主网页后，才按点击 次数付给广告站点费用。</p>
+<h3 id="cpc">CPC：</h3>
+<p>Cost Per Click;Cost Per Thousand Click-Through 每点击成本</p>
+<p>以每点击一次计费。例如百度的商业搜索结果就是以该种计费方式。但是，此类方法就有不少经营广告的网站觉得不公平。比如：虽然浏览者没有点击，但是他已经看到了广告，对于这些看到广告却没有点击的流量来说，网站成了白忙活。有很多网站不愿意做这样的广告，据说，是因为传统媒体从来都没有这样干过。</p>
+<h3 id="cpt">CPT：</h3>
+<p>Cost Per Time，CPT是一种以时间来计费的广告</p>
+<p>国内很多的网站都是按照“一个月多少钱”这种固定收费模式来收费的，这种广告形式很粗糙，无法保障客户的利益。但是CPT的确是一种很省心的广告，能给你的网站、博客带来稳定的收入。</p>
+<p>阿里妈妈的按周计费广告和门户网站的包月广告都属于这种CPT广告。</p>
+<h3 id="cps">CPS：</h3>
+<p>英文全称Cost Per Sales。CPS是一种以实际销售产品数量来计算广告费用的广告</p>
+<p>这种广告更多的适合购物类、导购类、网址导航类的网站，需要精准的流量才能带来转化。凡客的网站联盟是这种广告形式的典型代表。简单的说是一种分成模式。</p>
+<h3 id="cppa">CPPA：</h3>
+<p>按照到达用户付费<br>
+既不是按照浏览量（PV）付费，也不是按照实际效果付费，而是按照到达的用户那个付费，在网站上等同于UV，在手机端是新增用户上游数据（例如用户已下载安装还未打开激活APP的数量即为到达用户）</p>
+<p>净利率还可以叫净利润率、销售净利率、销售利润率、经营净利率、主营业务利润率</p>
+<p>其实指的都是一样东西，说明企业收入1块钱能净赚多少钱，看该指标的时候可以和毛利率比较一下，两者越接近说明企业的期间费用越低。</p>
+</span></p></div><div id = "warn"></div>
+	<br>
+	<hr>
+</div>
+</div>
+
+<style type="text/css">
+#mememe {
+	border:3px;
+	border-radius:5px;
+    background-repeat: no-repeat;
+    height: 100%;
+	width: 100%;
+	display: inline-block;
+	border-radius:5px; 
+}
+</style>
+
+<div style="width:100%;overflow:hidden">
+
+          <div style="float:right;text-align:right;color:#ccc;font-size:18px;width:50%;">
+            下一篇
+            <a href="https://POssichen.github.io/post/keynote-kuai-jie-cao-zuo/">
+              <p class="post-title">
+                <b>Keynote快捷操作</b>
+              </p>
+            </a>
+          </div>
+
+
+
+          <div style="float:left;text-align:left;color:#ccc;font-size:18px;width:50%;">
+            上一篇
+            <a href="https://POssichen.github.io/post/shu-ju-mai-dian/">
+              <p class="post-title">
+                <b>数据埋点</b>
+              </p>
+            </a>
+          </div>
+
+</div>
+
+<div class="doc_comments">
+
+</div>
+<script>
+var link="";$("img").each((i,o)=>{var o=$(o);if(o.attr("src").indexOf("sinaimg")>0||o.attr("src").indexOf("qpic")>0||o.attr("src").indexOf("baidu")>0||o.attr("src").indexOf("sinaimg")>0){o.attr("referrerpolicy","no-referrer");link=o.attr("src");o.attr("src",link);}});
+imgList = document.querySelectorAll('.md_block img')
+imgList.forEach(img => {
+  if (img.alt !== "logo" && img.alt !== "featureimg"){
+  let div1 = document.createElement('div')
+  let div = document.createElement('div')
+  div.className='back';
+  div.setAttribute("data-src",img.src)
+  var figuration = document.createElement("figcaption")
+  figuration.innerHTML = '<a href="' + img.src + '">' + img.alt + '</a>'
+  img.replaceWith(div1)
+  div1.appendChild(div)
+  div.appendChild(img)
+  div1.appendChild(figuration)}
+})
+$('img').on('error',function(){$(this).prop('src','https://POssichen.github.io/media/images/broken.jpg')});$(".md_block a").attr("rel","external nofollow");$("a[rel='external nofollow']").attr("target","_blank");$("a[href^='#']").removeAttr("target");$("a.ex").removeAttr("rel");$("a.ex").removeAttr("target");
+content="<div class='warn'>本文最后更新于2020-03-18，！</div>";var date1="2020-03-18 12:14:01";date1=date1.replace("-","/");var date2=new Date();var date3=date2.getTime()-new Date(date1).getTime();var days=Math.floor(date3/(24*3600*1000));if(days>=365){document.getElementById("warn").innerHTML=content};
+$('#pjax-container').lightGallery({
+    selector: '.back'
+});
+</script>
+  </div>
+</div>
+
+
+      </div>
+<div class="toc">
+<ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#part1%E5%9F%BA%E7%A1%80%E6%8C%87%E6%A0%87%E6%A6%82%E5%BF%B5">Part1：基础指标概念</a>
+<ul>
+<li><a href="#sem">SEM：</a></li>
+<li><a href="#seo">SEO：</a></li>
+<li><a href="#ctr">CTR：</a></li>
+<li><a href="#pv">PV：</a></li>
+<li><a href="#uv">UV：</a></li>
+<li><a href="#%E9%94%80%E5%94%AE%E9%A2%9D">销售额：</a></li>
+<li><a href="#%E6%AF%9B%E5%88%A9%E7%8E%87">毛利率：</a></li>
+<li><a href="#%E5%87%80%E5%88%A9%E7%8E%87">净利率：</a></li>
+</ul>
+</li>
+<li><a href="#part2%E5%B8%82%E5%9C%BA%E6%8A%95%E6%94%BE%E4%B8%BB%E8%A6%81%E8%AE%A1%E8%B4%B9%E6%96%B9%E5%BC%8F">Part2：市场投放主要计费方式</a>
+<ul>
+<li><a href="#cpm">CPM：</a></li>
+<li><a href="#cpa">CPA：</a></li>
+<li><a href="#cpc">CPC：</a></li>
+<li><a href="#cpt">CPT：</a></li>
+<li><a href="#cps">CPS：</a></li>
+<li><a href="#cppa">CPPA：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+    </div>
+	
+   <div class="footer">
+<div class="site_footer_wrap"><div class="site_footer">
+
+      <div class="mysocials"><div class="my_socials">
+		   
+			   
+    
+			   
+    
+			   
+    
+			   
+    
+			   
+    
+			   
+    
+
+<script type="text/javascript" src="https://POssichen.github.io/media/scripts/darkmode.js"></script>
+<script>
+console.clear();
+console.log("\n %c \u26a1Theme: Bitcron-pro Author's Blog:https://blog.blinkstar.cn  Writen By Serence  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;", );
+</script>
+<script>
+hljs.initHighlightingOnLoad();
+</script>
+
+
+</body>
+
+</html>
