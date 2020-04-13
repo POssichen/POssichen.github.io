@@ -2,13 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2020-04-04T08:10:47.328Z</updated>
+    <updated>2020-04-13T01:05:53.423Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
     <logo>https://POssichen.github.io/images/avatar.png</logo>
     <icon>https://POssichen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 陈冠朋 の Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[统一认证平台——产品介绍PPT]]></title>
+        <id>https://POssichen.github.io/post/zai-xian-jiao-yu-shi-chang-de-shi-chang-xu-qiu-fen-xi/</id>
+        <link href="https://POssichen.github.io/post/zai-xian-jiao-yu-shi-chang-de-shi-chang-xu-qiu-fen-xi/">
+        </link>
+        <updated>2020-04-12T14:18:52.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://POssichen.github.io/post-images/1586739594873.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在线教育市场的基础用户分析]]></title>
+        <id>https://POssichen.github.io/post/zai-xian-jiao-yu-shi-chang-de-yong-hu-hua-xiang-yu-yong-hu-fen-xi/</id>
+        <link href="https://POssichen.github.io/post/zai-xian-jiao-yu-shi-chang-de-yong-hu-hua-xiang-yu-yong-hu-fen-xi/">
+        </link>
+        <updated>2020-04-11T14:17:35.000Z</updated>
+        <content type="html"><![CDATA[<p>中国的教育市场非常大，除去了正在接受基础教育的学生，还有高校学生以及在职人士，但是我们的教育资源分配并不均匀，所以就会出现在线教育这个市场，通过教育的内容来吸引合适的学生。我下面会从不同的教育维度去分析现有的用户。</p>
+<h3 id="幼儿教育">幼儿教育</h3>
+<p>首先是幼儿这个阶段，主要的付费用户是家长，使用用户是幼儿，并且家长会参与到其中，根据极光大数据显示有65.7%程的家长会参与，并且由于此时家长注重培养孩子的兴趣，对课程的考察点是小孩子对课程的感兴趣程度，如果小孩子有兴趣，看完视频后对其中的内容朗朗上口，那么复购的几率会非常大，所以这个阶段的用户画像是3到6岁，已经在上幼儿园/学前班，登陆的地区为一线或者准一线的城市，因为家长意识到竞争的激烈，希望自己的孩子提前赢在起跑线上。</p>
+<h3 id="k12教育">K12教育</h3>
+<p>目前K12教育是最火的教育领域，它的年龄段从小学覆盖到高中阶段，这其中的用户又存在一定的分层现象。小学到初中结束，学生可能并未开始出现自我学习的意识，那么就意味着主要的首次购买用户依然是家长，此时相对于幼儿阶段，家长的期待目标并不是兴趣问题，而是是学习方法的搭建和效果，并且家长的参与度相对于幼儿阶段的65%提高到了70%，但是随着时间的增长，家长用户会逐渐降低参与的程度，从小学过度到初中之后，家长的参与率从70%跌到了53%，原因是家长用户认为自己的孩子已经可以独立学习，适当放开。到了高中，学生的自主意识存在提高，存在请求家长为自己报一些弱势科目培训班，这个阶段的用户画像是6到18岁，从小学覆盖至高中，自主学习能力根据年龄的增长而增长，根据地域统计，主要用户分布在一线到三线之间，而超一线的北上广深不足7%，这也是因为生存压力所导致，主要付费家长人群的收费入在中低到中高阶段之间，即以中等消费人群为主，并且根据统计，有47%的学生以考优质的学校为目标、26%的学生以考名校为目标。</p>
+<h3 id="成人教育">成人教育</h3>
+<p>这个领域的主要用户是高校学生以及职场人士，他们的目标一般为提升自己实际的职场竞争力，高校学生在审视自己不足之后，会选择一些职前在线教育来提高自己的竞争力，在系统地学习过相关岗位的基础知识，搭建起相关的知识体系，为自己面试提供一定的信心以及提高一定的求职成功率；而职场人士选择在线教育的需求是为了更好地储备岗位知识，场景可能是需要进行转岗或者提高岗位竞争力，会选择直播或录播的方式。在线教育市场的用户画像是22到28岁之间，高校应届毕业生以及职场人士，主要分布在超一线和一线城市，主要以基础类知识和工具类知识为主，以提高职业技能为核心，提高用户的个人能力。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据埋点]]></title>
         <id>https://POssichen.github.io/post/shu-ju-mai-dian/</id>
@@ -214,284 +238,6 @@ Command + D   直接复制选中幻灯片一份</p>
 <h3 id="5-小鹅鹅">5. 小鹅鹅</h3>
 <pre><code>&lt;u&gt;下划线文本&lt;/u&gt;
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOS 交互基准及目录]]></title>
-        <id>https://POssichen.github.io/post/ios-human-interface-guidelines/</id>
-        <link href="https://POssichen.github.io/post/ios-human-interface-guidelines/">
-        </link>
-        <updated>2020-01-26T04:27:57.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="font-colorf07c82three-primary-themesfont"><font color="#f07c82">Three Primary Themes</font></h3>
-<ol>
-<li>
-<p>Clarity</p>
-<pre><code> 页面清晰准确，功能驱动设计的原则；
-</code></pre>
-</li>
-<li>
-<p>Deference</p>
-<pre><code> 干净美观的界面、清晰流畅的动态效果；
-</code></pre>
-</li>
-<li>
-<p>Depth</p>
-<pre><code> 视觉层次感、交互层次感；
-</code></pre>
-</li>
-</ol>
-<hr>
-<h3 id="font-colorf07c82six-design-principlesfont"><font color="#f07c82">Six Design Principles</font></h3>
-<ol>
-<li>
-<p>Aesthetic Integrity （审美完整性）</p>
-<pre><code> 标准化的控件，可预知的交互行为；
-</code></pre>
-</li>
-<li>
-<p>Consistency （一致性）</p>
-<pre><code> 一致的界面元素，图标风格，字符样式等；
-</code></pre>
-</li>
-<li>
-<p><strong>Direct Manipulation （直接操纵）</strong></p>
-<pre><code> 通过旋转屏幕或手势对屏幕上的对象进行交互，提高用户参与度；
-</code></pre>
-</li>
-<li>
-<p><strong>Feedback（反馈）</strong></p>
-<pre><code> 每个交互行为都应该有明确的反馈；
-</code></pre>
-</li>
-<li>
-<p><strong>Metaphors（隐喻）</strong></p>
-<pre><code>通过隐喻用户在现实中的交互方式来使用户更快的学会使用应用；
-</code></pre>
-</li>
-<li>
-<p><strong>User Control（用户控制权）</strong></p>
-<pre><code> 只能通过建议或警告的方式对用户引导，不能剥夺控制权；
-</code></pre>
-</li>
-</ol>
-<hr>
-<h3 id="font-colorf07c82three-interface-essentialsfont"><font color="#f07c82">Three Interface Essentials</font></h3>
-<ol>
-<li>
-<p><strong>Bar（栏）</strong></p>
-<pre><code> 告知位置，提供导航，包含用于操作和传达信息的按钮和元素；
-</code></pre>
-</li>
-<li>
-<p><strong>View（视图）</strong></p>
-<pre><code> 包含用户所最关注的内容，如文本、动画，且视图支持滚动、插入、删除、排列等行为方式；
-</code></pre>
-</li>
-<li>
-<p><strong>Controls（控件）</strong></p>
-<pre><code> 控件用于触发功能及传递信息，例如按钮、开关、进度条等控件；
-</code></pre>
-</li>
-</ol>
-<hr>
-<h3 id="app-architecture-应用架构">App Architecture  应用架构</h3>
-<ol>
-<li>Loding  载入中</li>
-<li>Modality  模态</li>
-<li>Navigation  导航</li>
-<li>Onboarding  入职</li>
-<li>Requesting Permission  申请许可</li>
-<li>Settings  设定值</li>
-</ol>
-<h3 id="user-interaction-用户互动">User Interaction  用户互动</h3>
-<ol>
-<li>3D Touch  3D触控</li>
-<li>Apple Pencil</li>
-<li>Audio 音频</li>
-<li>Authentication  认证方式</li>
-<li>Data Entry  数据输入</li>
-<li>Drag and Drop  拖放</li>
-<li>Feedback  反馈</li>
-<li>File Handling  文件处理</li>
-<li>Gestures  手势</li>
-<li>Haptics  触觉</li>
-<li>Near Field  近场</li>
-<li>Communication  通讯</li>
-<li>Undo and Redo  撤消和重做</li>
-</ol>
-<h3 id="system-capabilities-系统能力">System Capabilities  系统能力</h3>
-<ol>
-<li>Augmented Reality  增强现实</li>
-<li>Mutitasking  多任务</li>
-<li>Multiple Windows  多视窗</li>
-<li>Notification  通知</li>
-<li>Printing  列印</li>
-<li>Quick Look  快速浏览</li>
-<li>Ratings and Reviews  评分和评论</li>
-<li>Sceenshots  屏幕截图</li>
-<li>TV Providers  电视提供商</li>
-</ol>
-<h3 id="visual-design-视觉设计">Visual Design  视觉设计</h3>
-<ol>
-<li>Adaptivity and Layout  适应性和布局</li>
-<li>Animation  动画</li>
-<li>Branding  品牌推广</li>
-<li>Color  颜色</li>
-<li>Dark Mode  暗模式</li>
-<li>Materials  用料</li>
-<li>Terminology  术语</li>
-<li>Typography  版式</li>
-<li>Video  视频</li>
-</ol>
-<h3 id="icons-and-images-图标和图像">Icons and Images  图标和图像</h3>
-<ol>
-<li>Image Size and Resolution  图像尺寸和分辨率</li>
-<li>App Icon  应用程式图示</li>
-<li>Custom Icons  自定义图标</li>
-<li>Launch Screen  启动画面</li>
-<li>System Icons  系统图标</li>
-</ol>
-<h3 id="bars-工具栏">Bars  工具栏</h3>
-<ol>
-<li>Navigation Bars  导航栏</li>
-<li>Search Bars  搜索栏</li>
-<li>Status Bars  状态栏</li>
-<li>Tab Bars  标签栏</li>
-<li>Toolbars  工具栏</li>
-</ol>
-<h3 id="views-视图">Views  视图</h3>
-<ol>
-<li>Action Sheets  行动表</li>
-<li>Active Views  活动视图</li>
-<li>Alerts  快讯</li>
-<li>Collections  馆藏</li>
-<li>Image Views  图像浏览</li>
-<li>Pages  页数</li>
-<li>Popovers  弹出窗口</li>
-<li>Scroll Views  滚动视图</li>
-<li>Split Views  分割视图</li>
-<li>Tables  桌子</li>
-<li>Text Views  文字检视</li>
-<li>Web Views  网页浏览</li>
-</ol>
-<h3 id="controls-控制项">Controls  控制项</h3>
-<ol>
-<li>Buttons  按钮</li>
-<li>Context Menus  上下文菜单</li>
-<li>Edit Menus  编辑菜单</li>
-<li>Labels  标签</li>
-<li>Page Controls  页面控件</li>
-<li>Pickers  选择器</li>
-<li>Progress Indicators 进度指标</li>
-<li>Refresh Content Controls  刷新内容控件</li>
-<li>Segmented Controls  分段控件</li>
-<li>Sliders  滑杆</li>
-<li>Steppers  踏步机</li>
-<li>Switches  开关</li>
-<li>Text Fields  文字栏位</li>
-</ol>
-<h3 id="extensions-扩展名">Extensions  扩展名</h3>
-<ol>
-<li>Custom Keyboards  自定义键盘</li>
-<li>File Providers  文件提供者</li>
-<li>Home Screen Actions  主屏幕动作</li>
-<li>Messaging  讯息传递</li>
-<li>Photo Editing  图片修改</li>
-<li>Sharing and Acitons  分享与行动</li>
-<li>Widgets  小部件</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mac os Visual Index 视觉指数]]></title>
-        <id>https://POssichen.github.io/post/mac-os-visual-index/</id>
-        <link href="https://POssichen.github.io/post/mac-os-visual-index/">
-        </link>
-        <updated>2020-01-26T03:55:33.000Z</updated>
-        <content type="html"><![CDATA[<p>大多数Mac os都是使用了AppKit组建构建的，AppKit是一种定义通用接口元素的编程框架，所以Mac os中得以实现一致的程序外观，不过Apple官方也提供了高级别的自定义功能。</p>
-<h3 id="窗口和视图">窗口和视图</h3>
-<p>窗口包含一个或者多个视图，其中包含人们看到的文本内容、图形、动画以及交互；</p>
-<ol>
-<li>Alert——显示消息的通知，错误或者警告</li>
-<li>Box——为控件、文本框和其他元素的逻辑分组</li>
-<li>Column view——垂直列显示文件数据层次的导航窗口</li>
-<li>Outline view——在滚动列表中以层次结构显示行数据</li>
-<li>Image view——在透明或者不透明的背景上显示单个图像或动画序列</li>
-<li>Panel（HUD-style）——在高度视觉或沉浸式应用程序中显示与活动文档有关的信息</li>
-<li>Panel（standard）——显示与活动文档有关的信息、选项或控件</li>
-<li>Popover——单击控件或视图时，在屏幕上方显示控件、选项或信息</li>
-<li>Scroll view——通过水平和垂直滚动，可以浏览大于可见区域的内容</li>
-<li>Sheet——附加到窗口的模式对话框中显示控件，选项或信息</li>
-<li>Sidebar——侧边栏出现在窗口的一侧，可以选择需要操作的项目</li>
-<li>Split view——拆分视图用于管理两个或者多个内容窗格的呈现</li>
-<li>Tabview——标签视图在同一区域内显示多个内容窗格</li>
-<li>Table view——在单元格的滚动列表显示数据</li>
-<li>Toolbar——工具栏提供对应用程序窗口中常用命令和功能的快速访问</li>
-<li>Web view——加载并显示丰富的Web内容</li>
-<li>Window——由框架区域和主体区域组成，可用于查看应用程序的内容并与之交互</li>
-</ol>
-<h3 id="菜单">菜单</h3>
-<ol>
-<li>Contextual menu——上下文菜单通过Control键单击某个项目显示，提供常用命令访问</li>
-<li>Dock menu——停靠菜单通过右键点击Dock图标显示，提供系统对应的命令访问</li>
-<li>Menu bar menu——菜单栏菜单用于访问特定应用程序的命令，位于左上角</li>
-</ol>
-<h3 id="按钮">按钮</h3>
-<ol>
-<li>Action button——动作按钮通常在工具栏或者表格下找到，提供常用命令访问</li>
-<li>Checkbox——多选框</li>
-<li>Disclosure button——显示和隐藏与特定控件相关的功能，例如“保存”中的“另存为”</li>
-<li>Disclosure triangle——显示和隐藏相关的信息或功能</li>
-<li>Gradient button——一般用于删除或添加表行</li>
-<li>Help button——帮助按钮</li>
-<li>Image button——图像按钮一般包含图标或图像</li>
-<li>Pop-up button——弹出按钮显示包含互斥选项列表的菜单</li>
-<li>Pull-down button——下拉按钮显示命令列表或启用一个或多个状态的选择</li>
-<li>Push button——点击按钮</li>
-<li>Radio button——单选按钮</li>
-<li>Scope button——范围按钮限制视图中内容的范围，例如搜索结果</li>
-</ol>
-<h3 id="字段和标签">字段和标签</h3>
-<ol>
-<li>Combo box——组合框在单个控件中将文本字段与下拉按钮结合到一起</li>
-<li>Label——标签描述屏幕上的元素或提供短信息</li>
-<li>Search field——搜索框用于文本搜索</li>
-<li>Text field——文本域允许用户输入和编辑一行或多行文本</li>
-<li>Token field——令牌字段允许用户输入和编辑令牌，属于可操作类文本块</li>
-</ol>
-<h3 id="选择器">选择器</h3>
-<ol>
-<li>Color well——颜色面板用于颜色选择</li>
-<li>Date pocker——日期选择器用于时间或日期的文本或图形选择</li>
-<li>Image well——图像面板用于编辑图像，支持拖放、删除、复制和粘贴</li>
-<li>Path control——路径控制，显示所选文件或文件夹的文件系统路径</li>
-<li>Segmented control——分段控制是两个或多个段的水平集合，用于影响对象的状态视图</li>
-<li>Slider——滑块有水平、垂直和圆盘样式，在值的范围内进行选择</li>
-<li>Stepper——步进器用于数字、日期或时间值的递增和递减</li>
-</ol>
-<h3 id="指标">指标</h3>
-<ol>
-<li>Capacity indicator（continiuous）连续容量显示器，以填充轨迹说明容量</li>
-<li>Capacity indicator（discrete）离散容量指示器，以矩形块说明容量</li>
-<li>Progress bar——进度条</li>
-<li>Progress circle——进度圈</li>
-<li>Progress spinner——进度微调器用于显示无法量化的任务执行进度动画</li>
-<li>Rating indicator——使用一系列水平排列的图形符号来表达等级</li>
-<li>Relevance indicator——用一系列竖线传达相关性</li>
-</ol>
-<h3 id="触控板控制和视图">触控板控制和视图</h3>
-<ol>
-<li>Button——按钮</li>
-<li>Candidate list——候选列表，在文本输入过程中的自动提示</li>
-<li>Character picker——表情选择器</li>
-<li>Color picker——颜色选择器</li>
-<li>Popover——弹窗，以按钮样式呈现，点击后显示包含的控件按钮</li>
-<li>Scrubber（fixed）——滑动浏览固定的内容</li>
-<li>Scrubber（free）——滑动浏览会变化的内容</li>
-<li>Segmented control——分段控制是两个或多个段的水平集合，用于影响对象的状态视图</li>
-<li>Sharing service picker——共享服务选择器，用于分享信息</li>
-<li>Slider——滑块有水平、垂直和圆盘样式，在值的范围内进行选择</li>
-</ol>
 ]]></content>
     </entry>
     <entry>
