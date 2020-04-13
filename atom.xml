@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://POssichen.github.io</id>
     <title>陈冠朋 の Blog</title>
-    <updated>2020-04-13T01:17:38.216Z</updated>
+    <updated>2020-04-13T01:24:45.564Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://POssichen.github.io"/>
     <link rel="self" href="https://POssichen.github.io/atom.xml"/>
@@ -15,8 +15,7 @@
         <link href="https://POssichen.github.io/post/zai-xian-jiao-yu-shi-chang-de-shi-chang-xu-qiu-fen-xi/">
         </link>
         <updated>2020-04-12T14:18:52.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://POssichen.github.io/post-images/1586740647106.jpg" alt="" loading="lazy"><br>
-<img src="https://POssichen.github.io/post-images/1586740652195.jpg" alt="" loading="lazy"></p>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://POssichen.github.io/post-images/1586741065654.jpeg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
